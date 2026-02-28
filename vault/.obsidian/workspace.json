@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b8e30828803a1a9b",
+        "id": "6a86998357f2fc47",
         "type": "tabs",
         "children": [
           {
-            "id": "9281d8fed03d495e",
+            "id": "01c8053e2a0ac2c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Needs_Action/urgent-money_metadata.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "urgent-money_metadata"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ]
@@ -74,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,20 +183,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "9281d8fed03d495e",
+  "active": "01c8053e2a0ac2c4",
   "lastOpenFiles": [
-    "BRONZE_TIER_CHECKLIST.md",
-    "Needs_Action/urgent-money_metadata.md",
-    "Needs_Action/urgent-money.md",
-    "Inbox/urgent-money.md",
+    "Untitled.canvas",
+    "Untitled.base",
+    "2026-02-28.md",
+    "Done/EMAIL_19ca24d5668b7315.md",
+    "Pending_Approval/LINKEDIN_APPROVAL_2026-02-28.md",
+    "Done/EMAIL_19ca27f33e5186e9.md",
     "Logs/tasks_log.md",
     "Dashboard.md",
-    "Done/meeting.md",
+    "Dashboard.md.tmp.11260.1772253852118",
+    "Drafts/LinkedIn_post_2026-02-28.md.tmp.11260.1772253688802",
+    "Needs_Action/EMAIL_19ca24d5668b7315.md",
+    "Needs_Action/EMAIL_19ca27f33e5186e9.md",
+    "Drafts/LinkedIn_post_20260226_091300.md",
+    "Drafts/LinkedIn_post_2026-02-28.md",
+    "Dashboard.md.tmp.11260.1772253322101",
+    "Logs/process_log.txt",
+    "Archive/PROCESSED_EMAIL_19ca24d5668b7315.md",
+    "Archive/APPROVAL_EMAIL_19ca24d5668b7315.md",
+    "Approved/PROCESSED_EMAIL_19ca24d5668b7315.md",
+    "Approved/APPROVAL_EMAIL_19ca24d5668b7315.md",
+    "Plans/Plan_EMAIL_19ca24d5668b7315.md",
+    "Approved/APPROVAL_EMAIL_19ca24d5668b7315.md",
+    "Archive",
     "Company_Handbook.md",
-    "Inbox/test_task.md",
-    "filesystem_watcher.py",
-    "Plans/Plan_meeting.md",
-    "Needs_Action/meeting.md",
-    "Inbox/meeting.md"
+    "BRONZE_TIER_CHECKLIST.md",
+    "Inbox/EMAIL_test_20260226_091256.md",
+    "Done/test_task.md",
+    "Done/meeting.md",
+    "Done/EMAIL_19c97f85a1e1deeb.md",
+    "Archived/RESPONSE_test_task.md",
+    "Archived/RESPONSE_EMAIL_test_20260226_091256.md",
+    "Archived/RESPONSE_EMAIL_test_20260226_091155.md",
+    "Logs/daily_log.txt",
+    "Logs/silver_test_flow.json",
+    "Dashboard",
+    "Drafts"
   ]
 }

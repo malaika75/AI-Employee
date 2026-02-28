@@ -1,0 +1,11 @@
+{
+  "servers": [
+    {
+      "name": "Email MCP Server",
+      "command": ["python", "email_mcp.py"],
+      "port": 8080,
+      "capabilities": ["send_email", "draft_email"],
+      "description": "Email sending and drafting with human-in-the-loop approval"
+    }
+  ]
+}

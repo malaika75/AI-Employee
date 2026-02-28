@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+daily_log.txt
+email_log.json
+vault/Logs/email_operations.json
+vault/Logs/process_log.txt
+vault/Logs/tasks_log.md
+vault/Logs/daily_log.txt
+vault/Logs/silver_test_flow.json
+
+# Credentials and tokens (CRITICAL: Never commit these)
+token.json
+credentials.json
+*.token
+*.credential
+*.secret
+*.pem
+*.key
+
+# Sensitive data files
+vault/.gmail_processed.json
+credentials.json
+config.json
+*.env
+.env
+
+# Local configuration
+local_settings.py
+db.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+temp/
+
+# Task and process related files
+tasks/
+D:\Dev\Temp\claude\*
