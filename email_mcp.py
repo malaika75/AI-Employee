@@ -26,6 +26,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import pickle
 
+# Import the new utilities
+from retry_utils import retry_with_exponential_backoff
+from audit_logger import audit_logger
+
 
 class ApprovalHandler(FileSystemEventHandler):
     def __init__(self, server):
@@ -114,7 +118,13 @@ class EmailMCPServer:
                         'https://www.googleapis.com/auth/gmail.readonly'
                     ])
                 except Exception as e:
-                    print(f"Error loading existing token: {e}")
+                    error_msg = f"Error loading existing token: {e}"
+                    print(error_msg)
+                    audit_logger.log_error(
+                        action_type="gmail_service_init",
+                        error=error_msg,
+                        details={"step": "token_load"}
+                    )
                     creds = None
 
             if not creds or not creds.valid:
@@ -122,40 +132,81 @@ class EmailMCPServer:
                     try:
                         creds.refresh(Request())
                     except Exception as e:
-                        print(f"Failed to refresh credentials: {e}")
+                        error_msg = f"Failed to refresh credentials: {e}"
+                        print(error_msg)
+                        audit_logger.log_error(
+                            action_type="gmail_service_init",
+                            error=error_msg,
+                            details={"step": "token_refresh"}
+                        )
                         # If refresh fails, we need to get new credentials
                         creds = None
 
                 # If still no valid credentials, initiate OAuth flow
                 if not creds:
                     if not credentials_path.exists():
-                        print(f"Error: Credentials file not found: {credentials_path}")
+                        error_msg = f"Error: Credentials file not found: {credentials_path}"
+                        print(error_msg)
                         print("Please set up your Google API credentials.json first")
+                        audit_logger.log_error(
+                            action_type="gmail_service_init",
+                            error=error_msg,
+                            details={"step": "credentials_check"}
+                        )
                         return None
 
                     print("No valid token found. Initiating OAuth flow for email permissions...")
-                    from google_auth_oauthlib.flow import InstalledAppFlow
-                    flow = InstalledAppFlow.from_client_secrets_file(
-                        credentials_path, [
-                            'https://www.googleapis.com/auth/gmail.send',
-                            'https://www.googleapis.com/auth/gmail.compose',
-                            'https://www.googleapis.com/auth/gmail.modify',
-                            'https://www.googleapis.com/auth/gmail.readonly'
-                        ])
-                    creds = flow.run_local_server(port=0)
+                    audit_logger.log_warning(
+                        action_type="gmail_service_init",
+                        warning="No valid token found, initiating OAuth flow",
+                        details={"step": "oauth_init"}
+                    )
+                    try:
+                        from google_auth_oauthlib.flow import InstalledAppFlow
+                        flow = InstalledAppFlow.from_client_secrets_file(
+                            credentials_path, [
+                                'https://www.googleapis.com/auth/gmail.send',
+                                'https://www.googleapis.com/auth/gmail.compose',
+                                'https://www.googleapis.com/auth/gmail.modify',
+                                'https://www.googleapis.com/auth/gmail.readonly'
+                            ])
+                        creds = flow.run_local_server(port=0)
 
-                    # Save the credentials for the next run
-                    with open(token_path, 'w') as token:
-                        token.write(creds.to_json())
-                    print("New token created successfully!")
+                        # Save the credentials for the next run
+                        with open(token_path, 'w') as token:
+                            token.write(creds.to_json())
+                        print("New token created successfully!")
+                        audit_logger.log_success(
+                            action_type="gmail_service_init",
+                            details={"step": "token_creation"}
+                        )
+                    except Exception as e:
+                        error_msg = f"Failed to initiate OAuth flow: {e}"
+                        print(error_msg)
+                        audit_logger.log_error(
+                            action_type="gmail_service_init",
+                            error=error_msg,
+                            details={"step": "oauth_flow"}
+                        )
+                        return None
 
             service = build('gmail', 'v1', credentials=creds)
             print("Gmail service initialized successfully")
+            audit_logger.log_success(
+                action_type="gmail_service_init",
+                details={"status": "success"}
+            )
             return service
         except Exception as e:
-            print(f"Error setting up Gmail service: {e}")
+            error_msg = f"Error setting up Gmail service: {e}"
+            print(error_msg)
             import traceback
             traceback.print_exc()
+            audit_logger.log_error(
+                action_type="gmail_service_init",
+                error=error_msg,
+                details={"step": "final_build"}
+            )
             return None
 
     def create_message(self, sender, to, subject, message_text):
@@ -294,9 +345,27 @@ class EmailMCPServer:
             # Return a minimal valid structure for error handling
             return {"body": content, "action": "unknown", "to": "", "subject": ""}
 
+    @retry_with_exponential_backoff(
+        max_retries=3,
+        base_delay=1.0,
+        max_delay=60.0,
+        backoff_factor=2.0,
+        exceptions=(HttpError, ConnectionError, socket.error)
+    )
     def send_email(self, email_data):
         """Actually send the email using the email data"""
         print(f"Sending email to: {email_data.get('to')}, subject: {email_data.get('subject')}")
+
+        # Log the attempt
+        audit_logger.log_action(
+            action_type="email_send_attempt",
+            status="attempting",
+            details={
+                "to": email_data.get("to"),
+                "subject": email_data.get("subject"),
+                "attempt_number": getattr(self.send_email, 'attempt_number', 1)
+            }
+        )
 
         try:
             if not self.gmail_service:
@@ -332,7 +401,7 @@ class EmailMCPServer:
             print("Email sent successfully!")
             print(f'Message Id: {sent_message["id"]}')
 
-            # Log the sent email
+            # Log the sent email to both local and audit logs
             log_entry = {
                 "timestamp": datetime.now().isoformat(),
                 "action": "email_sent",
@@ -355,18 +424,29 @@ class EmailMCPServer:
             with open(log_path, 'w') as f:
                 json.dump(logs, f, indent=2)
 
+            # Also log to comprehensive audit log
+            audit_logger.log_success(
+                action_type="email_sent",
+                details={
+                    "to": email_data.get("to"),
+                    "subject": email_data.get("subject"),
+                    "message_id": sent_message["id"]
+                }
+            )
+
         except Exception as e:
+            error_msg = str(e)
             print(f"Error sending email: {e}")
             import traceback
             traceback.print_exc()
 
-            # Log the failed email
+            # Log the failed email to both local and audit logs
             log_entry = {
                 "timestamp": datetime.now().isoformat(),
                 "action": "email_send_failed",
                 "to": email_data.get("to"),
                 "subject": email_data.get("subject"),
-                "error": str(e),
+                "error": error_msg,
                 "status": "failed"
             }
 
@@ -383,9 +463,40 @@ class EmailMCPServer:
             with open(log_path, 'w') as f:
                 json.dump(logs, f, indent=2)
 
+            # Also log to comprehensive audit log
+            audit_logger.log_error(
+                action_type="email_send_failed",
+                error=error_msg,
+                details={
+                    "to": email_data.get("to"),
+                    "subject": email_data.get("subject")
+                }
+            )
+
+            # Re-raise the exception to trigger retry
+            raise e
+
+    @retry_with_exponential_backoff(
+        max_retries=3,
+        base_delay=1.0,
+        max_delay=60.0,
+        backoff_factor=2.0,
+        exceptions=(HttpError, ConnectionError, socket.error)
+    )
     def draft_email(self, email_data):
         """Create an email draft using the email data"""
         print(f"Creating email draft for: {email_data.get('to')}, subject: {email_data.get('subject')}")
+
+        # Log the attempt
+        audit_logger.log_action(
+            action_type="email_draft_attempt",
+            status="attempting",
+            details={
+                "to": email_data.get("to"),
+                "subject": email_data.get("subject"),
+                "attempt_number": getattr(self.draft_email, 'attempt_number', 1)
+            }
+        )
 
         try:
             if not self.gmail_service:
@@ -423,7 +534,7 @@ class EmailMCPServer:
             print("Email draft created successfully!")
             print(f'Draft Id: {draft["id"]}')
 
-            # Log the draft email
+            # Log the draft email to both local and audit logs
             log_entry = {
                 "timestamp": datetime.now().isoformat(),
                 "action": "email_draft_created",
@@ -446,18 +557,29 @@ class EmailMCPServer:
             with open(log_path, 'w') as f:
                 json.dump(logs, f, indent=2)
 
+            # Also log to comprehensive audit log
+            audit_logger.log_success(
+                action_type="email_draft_created",
+                details={
+                    "to": email_data.get("to"),
+                    "subject": email_data.get("subject"),
+                    "draft_id": draft["id"]
+                }
+            )
+
         except Exception as e:
+            error_msg = str(e)
             print(f"Error creating email draft: {e}")
             import traceback
             traceback.print_exc()
 
-            # Log the failed draft
+            # Log the failed draft to both local and audit logs
             log_entry = {
                 "timestamp": datetime.now().isoformat(),
                 "action": "email_draft_failed",
                 "to": email_data.get("to"),
                 "subject": email_data.get("subject"),
-                "error": str(e),
+                "error": error_msg,
                 "status": "failed"
             }
 
@@ -473,6 +595,19 @@ class EmailMCPServer:
 
             with open(log_path, 'w') as f:
                 json.dump(logs, f, indent=2)
+
+            # Also log to comprehensive audit log
+            audit_logger.log_error(
+                action_type="email_draft_failed",
+                error=error_msg,
+                details={
+                    "to": email_data.get("to"),
+                    "subject": email_data.get("subject")
+                }
+            )
+
+            # Re-raise the exception to trigger retry
+            raise e
 
     def start(self):
         """Start the MCP server"""

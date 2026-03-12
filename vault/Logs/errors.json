@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-03-01T09:55:26.475750",
+    "error_details": {
+      "error": "Wrong login ID or password",
+      "operation": "connect",
+      "timestamp": "2026-03-01T09:55:26.473757"
+    }
+  },
+  {
+    "timestamp": "2026-03-01T09:57:48.203890",
+    "error_details": {
+      "error": "Wrong login ID or password",
+      "operation": "connect",
+      "timestamp": "2026-03-01T09:57:48.202841"
+    }
+  },
+  {
+    "timestamp": "2026-03-02T08:25:55.194737",
+    "error_details": {
+      "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+      "operation": "connect",
+      "timestamp": "2026-03-02T08:25:55.194228"
+    }
+  }
+]

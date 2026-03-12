@@ -63,6 +63,42 @@ def start_gmail_watcher():
         logging.error(f"Failed to start Gmail Watcher: {e}")
         return None
 
+def start_email_mcp():
+    """Start the email MCP server"""
+    try:
+        process = subprocess.Popen([
+            sys.executable, 'email_mcp.py'
+        ], cwd='.')
+        logging.info("Email MCP Server started with PID: {}".format(process.pid))
+        return process
+    except Exception as e:
+        logging.error(f"Failed to start Email MCP Server: {e}")
+        return None
+
+def start_odoo_mcp():
+    """Start the odoo MCP server"""
+    try:
+        process = subprocess.Popen([
+            sys.executable, 'odoo_mcp.py', '--vault-path', 'odoo_vault.json'
+        ], cwd='.')
+        logging.info("Odoo MCP Server started with PID: {}".format(process.pid))
+        return process
+    except Exception as e:
+        logging.error(f"Failed to start Odoo MCP Server: {e}")
+        return None
+
+def start_social_mcp():
+    """Start the social MCP server"""
+    try:
+        process = subprocess.Popen([
+            sys.executable, 'social_mcp.py'
+        ], cwd='.')
+        logging.info("Social MCP Server started with PID: {}".format(process.pid))
+        return process
+    except Exception as e:
+        logging.error(f"Failed to start Social MCP Server: {e}")
+        return None
+
 def signal_handler(signum, frame, processes):
     """Handle shutdown signals"""
     logging.info("Shutdown signal received. Terminating processes...")
@@ -101,11 +137,30 @@ def main():
     if gmail_watcher:
         processes.append(gmail_watcher)
 
+    time.sleep(1)  # Brief pause between starting processes
+
+    email_mcp = start_email_mcp()
+    if email_mcp:
+        processes.append(email_mcp)
+
+    time.sleep(1)  # Brief pause between starting processes
+
+    odoo_mcp = start_odoo_mcp()
+    if odoo_mcp:
+        processes.append(odoo_mcp)
+
+    time.sleep(1)  # Brief pause between starting processes
+
+    social_mcp = start_social_mcp()
+    if social_mcp:
+        processes.append(social_mcp)
+
     # Set up signal handlers for graceful shutdown
     signal.signal(signal.SIGINT, lambda sig, frame: signal_handler(sig, frame, processes))
     signal.signal(signal.SIGTERM, lambda sig, frame: signal_handler(sig, frame, processes))
 
-    if len(processes) == 3:
+    expected_processes = 6  # process_watcher, filesystem_watcher, gmail_watcher, email_mcp, odoo_mcp, social_mcp
+    if len(processes) == expected_processes:
         logging.info("All processes started successfully!")
         logging.info("Processes are running in the background.")
         logging.info("Press Ctrl+C to stop all processes.")
@@ -123,6 +178,12 @@ def main():
                             processes[i] = start_filesystem_watcher()
                         elif i == 2:
                             processes[i] = start_gmail_watcher()
+                        elif i == 3:
+                            processes[i] = start_email_mcp()
+                        elif i == 4:
+                            processes[i] = start_odoo_mcp()
+                        elif i == 5:
+                            processes[i] = start_social_mcp()
 
                 time.sleep(10)  # Check every 10 seconds
         except KeyboardInterrupt:

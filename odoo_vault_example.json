@@ -1,0 +1,7 @@
+{
+    "odoo_host": "localhost",
+    "odoo_port": 8069,
+    "odoo_db": "ai_employee_db",
+    "odoo_username": "admin",
+    "odoo_password": "admin"
+}

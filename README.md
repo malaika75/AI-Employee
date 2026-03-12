@@ -309,3 +309,278 @@ For normal emails that don't need approval:
 7. **Complete Logging:** All activities logged in `/Logs` with timestamps
 
 All operations maintain security through human oversight for sensitive actions while providing full automation for routine tasks. The system operates continuously, handling email processing, task management, and business updates automatically.
+
+
+
+# Personal AI Employee - Gold Tier
+
+Advanced functionality with weekly business & accounting audit, error recovery, graceful degradation, and comprehensive logging.
+
+## Enhanced Folder Structure
+```
+/Inbox
+/Needs_Action
+/Done
+/Logs
+/Plans
+/Drafts
+/vault
+  /Approved
+  /Rejected
+  /Pending_Approval
+  /Archive
+  /Briefings
+  /Needs_Action
+  /Done
+  /Pending_Approval
+  /Drafts
+  /Approved
+  /Rejected
+  /Inbox
+  /Archive
+  /Logs
+Dashboard.md
+Business_Goals.md
+Company_Handbook.md
+Skills/
+  SKILL_ScanNeedsAction.md
+  SKILL_ProcessTaskFile.md
+  SKILL_UpdateDashboard.md
+  SKILL_CreatePlanForTask.md
+  SKILL_TriageEmail.md
+  SKILL_RequestEmailApproval.md
+  SKILL_ProcessEmailForResponse.md
+  SKILL_MoveApprovedToArchived.md
+  SKILL_PostToLinkedIn.md
+  SKILL_ScanNeedsAction.md
+  SKILL_CreatePlanForTask.md
+  SKILL_WeeklyAudit.md
+  SKILL_OdooDraftInvoice.md
+  SKILL_SocialPost.md
+filesystem_watcher.py
+gmail_watcher.py
+process_watcher.py
+start_processes.py
+start_all_processes.bat
+email_mcp.py
+odoo_mcp.py
+social_mcp.py
+daily_claude_run.bat
+mcp.json
+weekly_audit.py
+retry_utils.py
+audit_logger.py
+Documentation/
+  Gold_Tier_Architecture.md
+  Final_Gold_Completion_Checklist.md
+test_weekly_audit.py
+```
+
+# Gold Tier Features
+
+## 1. Weekly Business & Accounting Audit System
+
+### CEO Briefing Generation
+- **Weekly Audit (`weekly_audit.py`)**: Runs automatically every Sunday to generate comprehensive CEO briefings
+- **Business Goals Analysis**: Reads from `Business_Goals.md` for strategic alignment
+- **Task Completion Tracking**: Analyzes `/Done` folder for completed tasks from the current week
+- **Revenue Reporting**: Fetches financial data via Odoo MCP integration
+- **Bottleneck Identification**: Identifies delayed tasks and pending items requiring attention
+- **Proactive Suggestions**: Generates actionable suggestions (e.g., cancel underperforming subscriptions, follow up with clients)
+
+**Briefing File Format** (`/vault/Briefings/{date}_CEO_Briefing.md`):
+```
+# Weekly CEO Briefing - 2026-02-28
+
+## Executive Summary
+This week's business audit covering key metrics, completed tasks, and strategic recommendations.
+
+## Business Goals Overview
+[Summary of business goals alignment]
+
+## Revenue Analysis
+### This Week
+- Total Revenue: $[amount]
+- Number of Invoices: [count]
+- Average Invoice Value: $[amount]
+
+## Completed Tasks
+### This Week
+- [List of completed tasks from /Done folder]
+
+## Bottlenecks & Delays
+### Current Issues
+- [List of pending approvals, delayed tasks]
+
+## Proactive Suggestions
+### Recommendations for Next Week
+- [List of proactive suggestions in dry-run mode]
+```
+
+### Scheduler Integration
+- **Daily Batch Script (`daily_claude_run.bat`)**: Updated to check if today is Sunday and run weekly audit automatically
+- **PowerShell Integration**: Uses PowerShell command to detect day of week
+- **Dashboard Updates**: Automatically updates dashboard with audit information
+
+## 2. Multi-MCP Integration System
+
+### Odoo MCP Server (`odoo_mcp.py`)
+- Handles ERP operations including invoices and payments
+- Implements draft approval system for financial operations
+- Provides revenue data for weekly audits
+- Coordinated with email and social MCPs
+
+### Social MCP Server (`social_mcp.py`)
+- Manages social media posting with human approval
+- Generates content suggestions for business updates
+- Integrates with weekly audit for social media content creation
+- Supports multiple platforms (Facebook, Instagram, Twitter)
+
+### Email MCP Server (`email_mcp.py`)
+- Enhanced with audit logging capabilities
+- Coordinated operation with other MCPs for comprehensive workflows
+- Maintains human-in-the-loop approval for sensitive operations
+
+## 3. Error Recovery & Graceful Degradation
+
+### Retry Mechanisms
+- **Exponential Backoff (`retry_utils.py`)**: Implements configurable retry mechanism with exponential backoff
+- **Decorator Pattern**: Uses `@retry_with_exponential_backoff` decorator across all API calls
+- **Configurable Parameters**: Maximum retries, base delay, max delay, and backoff factor
+- **Jitter Implementation**: Includes random jitter to prevent thundering herd effect
+
+**Retry Configuration**:
+```python
+@retry_with_exponential_backoff(
+    max_retries=3,
+    base_delay=1.0,
+    max_delay=60.0,
+    backoff_factor=2.0,
+    exceptions=(Exception,)
+)
+def api_call_function():
+    # Your API call implementation
+    pass
+```
+
+### Graceful Degradation Strategies
+- **MCP Server Failures**: Operations are queued in appropriate directories when MCP servers are unavailable
+- **File Watcher Failures**: System continues with manual processing capabilities
+- **API Unavailability**: Operations remain in draft/approval status until systems are restored
+- **Credential Expiration**: System logs issues and awaits manual intervention
+- **Component Failures**: System continues operating even when individual components fail
+
+### Connection Recovery
+- **Automatic Reconnection**: MCP servers automatically reconnect when connections fail
+- **Operation Queuing**: Failed operations are queued for later retry
+- **Fallback Strategies**: Defined procedures for different failure scenarios
+
+## 4. Comprehensive Logging System
+
+### JSONL Audit Logging (`audit_logger.py`)
+- **Full Audit Trail**: All operations logged to `/vault/Logs/full_audit.jsonl` in JSONL format
+- **Standardized Format**: Consistent structure with action_type, status, details, error, user_id, session_id
+- **UTC Timestamps**: All operations timestamped in UTC ISO format
+- **Cross-Service Integration**: Standardized logging across all MCP servers
+
+**JSONL Log Entry Format**:
+```json
+{"timestamp": "2026-03-04T08:32:09.906955", "action_type": "email_sent", "status": "success", "details": {"to": "user@example.com", "subject": "Weekly Report", "message_id": "1a2b3c"}, "user_id": "system"}
+{"timestamp": "2026-03-04T08:32:15.123456", "action_type": "odoo_invoice_draft", "status": "pending", "details": {"partner_id": 123, "amount": 1500.00}, "error": null, "user_id": "system"}
+```
+
+### Log Categories
+- **Operations Logs**: Track successful operations
+- **Error Logs**: Capture failures and issues
+- **Retry Logs**: Document failed attempts and retry mechanics
+- **Audit Trail**: Complete system activity tracking
+
+## 5. New Skills for Gold Tier
+
+### SKILL_WeeklyAudit.md
+- Defines the weekly audit functionality with proper MCP integration
+- Includes parameters and return values for the audit process
+- Coordinates with multiple MCPs for comprehensive data gathering
+
+### SKILL_OdooDraftInvoice.md
+- Handles Odoo invoice operations with approval workflow
+- Integrates with the weekly audit for financial reporting
+- Implements draft-only operations for financial security
+
+### SKILL_SocialPost.md
+- Manages social media content creation
+- Coordinates with weekly audit for business updates
+- Implements approval workflow for social media posts
+
+## 6. Architecture & Documentation
+
+### Comprehensive Documentation
+- **Gold_Tier_Architecture.md**: Detailed system architecture with ASCII diagrams
+- **Final_Gold_Completion_Checklist.md**: Complete checklist of all implemented features
+- **Lessons Learned**: Best practices and implementation insights
+- **Setup Guide**: Complete installation and configuration instructions
+
+### Modular Design Benefits
+- MCP servers can be independently updated
+- File system approach enables offline operations
+- Human-in-the-loop prevents automation errors
+- Directory-based workflow resilient to system failures
+
+## Testing Gold Tier Functionality
+
+### Manual Testing
+1. **Weekly Audit Test**: Force run the weekly audit by temporarily changing the date or directly executing `python weekly_audit.py`
+2. **MCP Integration Test**: Verify all three MCP servers (email, odoo, social) can coordinate properly
+3. **Error Recovery Test**: Simulate API failures to verify retry mechanisms activate
+4. **Logging Test**: Verify all operations are logged to the JSONL audit file
+5. **Human-in-the-Loop Test**: Test approval workflows with draft operations
+
+### Automated Testing
+- **test_weekly_audit.py**: Comprehensive test suite for weekly audit functionality
+- Unit tests for all core functions
+- Simulation of Sunday execution scenarios
+- Validation of CEO briefing generation
+
+### End-to-End Gold Tier Workflow
+1. **Sunday Execution**: Weekly audit automatically runs on Sundays
+2. **Data Gathering**: Collects information from Business_Goals.md, /Done folder, and Odoo via MCP
+3. **Analysis**: Identifies revenue, completed tasks, bottlenecks, and proactive suggestions
+4. **Briefing Generation**: Creates CEO briefing in /vault/Briefings
+5. **MCP Coordination**: Coordinates with email, odoo, and social MCPs for comprehensive operations
+6. **Logging**: Records all operations to comprehensive audit log
+7. **Dashboard Update**: Updates dashboard with audit information
+
+The Gold Tier implementation provides enterprise-grade business automation with comprehensive error recovery, graceful degradation, and detailed audit trails.
+
+## Setup for Gold Tier
+
+1. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Configure MCP Servers:**
+   - Set up OAuth credentials for Gmail, Odoo, and social media
+   - Configure `mcp.json` with appropriate endpoints
+
+3. **Start Complete System:**
+   ```bash
+   # Method 1: Using Python script
+   python start_processes.py
+
+   # Method 2: Using batch file
+   start_all_processes.bat
+
+   # Method 3: Manual start (alternative)
+   python email_mcp.py &
+   python odoo_mcp.py --vault-path odoo_vault.json &
+   python social_mcp.py &
+   python gmail_watcher.py --vault-path ./vault &
+   python filesystem_watcher.py --vault-path ./vault &
+   python process_watcher.py --vault-path ./vault &
+   ```
+
+4. **Initialize Business Data:**
+   - Add your business goals to `Business_Goals.md`
+   - Configure Odoo connection for financial data access
+   - Set up social media accounts and permissions

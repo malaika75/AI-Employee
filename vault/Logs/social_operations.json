@@ -1,0 +1,2821 @@
+[
+  {
+    "timestamp": "2026-03-02T10:09:39.041932",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260302_100939",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-02T10:09:39.067482",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260302_100939_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-02T10:09:39.092716",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Facebook",
+      "post_id": "social_20260302_100939",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-02T10:09:39.111930",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Facebook",
+      "post_id": "social_20260302_100939_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-02T10:09:39.133738",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Instagram",
+      "post_id": "social_20260302_100939",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-02T10:09:39.158322",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Instagram",
+      "post_id": "social_20260302_100939_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-02T10:09:39.178741",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260302_100939",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-02T10:09:39.201512",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260302_100939_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T09:57:27.474215",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_095727",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T09:57:27.507714",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_095727_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T09:57:27.541245",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Facebook",
+      "post_id": "social_20260305_095727",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T09:57:27.576731",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Facebook",
+      "post_id": "social_20260305_095727_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T09:57:27.608422",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Instagram",
+      "post_id": "social_20260305_095727",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T09:57:27.652736",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Instagram",
+      "post_id": "social_20260305_095727_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T09:57:27.692747",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_095727",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T09:57:27.734837",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_095727_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:02:33.783777",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100233",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:02:33.820567",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100233_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:08.968948",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100808",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:09.019119",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100808_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:25.019127",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100824",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:25.054114",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100825_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:28.878416",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100828",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:28.941603",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100828_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:40.070780",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100839",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:40.363720",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100840_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:48.179882",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100848",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:48.216780",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100848_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:58.403529",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100858",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:08:58.457014",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100858_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:08.991164",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100908",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:09.022263",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100908_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:18.137700",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100918",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:18.168323",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100918_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:28.288011",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100928",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:28.328405",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100928_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:38.251659",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100938",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:38.283440",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100938_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:48.173118",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100948",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:48.205592",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100948_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:58.311349",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100958",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:09:58.340705",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_100958_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:08.120185",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101008",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:08.149920",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101008_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:18.208993",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101018",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:18.241172",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101018_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:28.292560",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101028",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:28.325693",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101028_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:38.226558",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101038",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:38.252452",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101038_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:48.283338",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101048",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:48.317280",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101048_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:58.283963",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101058",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:10:58.313621",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101058_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:08.177596",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101108",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:08.240622",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101108_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:18.350896",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101118",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:18.388675",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101118_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:28.197907",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101128",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:28.226329",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101128_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:38.549070",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101138",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:38.589534",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101138_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:48.365636",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101148",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:48.393801",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101148_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:58.250595",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101158",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:11:58.279048",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101158_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:08.844119",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101208",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:08.899153",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101208_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:18.286527",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101218",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:18.327720",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101218_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:28.317727",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101228",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:28.358725",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101228_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:38.813241",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101238",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:38.866227",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101238_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:48.403247",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101248",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:48.436113",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101248_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:59.212160",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101259",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:12:59.244811",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101259_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:08.945069",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101308",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:08.988905",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101308_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:18.393522",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101318",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:18.428026",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101318_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:28.368684",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101328",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:28.401757",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101328_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:38.404963",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101338",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:38.439186",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101338_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:48.397764",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101348",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:48.428361",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101348_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:58.417740",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101358",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:13:58.449769",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101358_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:08.498783",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101408",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:08.539541",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101408_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:18.435536",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101418",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:18.469058",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101418_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:28.463689",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101428",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:28.495585",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101428_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:38.475263",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101438",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:38.505329",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101438_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:48.705345",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101448",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:48.737633",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101448_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:58.490603",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101458",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:14:58.526071",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101458_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:08.471116",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101508",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:08.498621",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101508_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:18.515964",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101518",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:18.554514",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101518_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:28.596988",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101528",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:28.630693",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101528_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:38.554128",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101538",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:38.594716",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101538_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:48.519968",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101548",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:48.556582",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101548_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:58.591691",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101558",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:15:58.623864",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101558_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:09.218049",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101609",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:09.254221",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101609_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:18.600908",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101618",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:18.634843",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101618_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:28.580575",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101628",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:28.619553",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101628_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:38.644402",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101638",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:38.784748",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101638_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:48.600417",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101648",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:48.635918",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101648_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:58.721326",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101658",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:16:58.761790",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101658_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:08.634734",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101708",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:08.672744",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101708_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:18.676538",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101718",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:18.735714",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101718_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:28.835792",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101728",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:28.871428",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101728_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:38.707831",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101738",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:38.744355",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101738_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:48.819273",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101748",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:48.861626",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101748_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:58.968270",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101758",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:17:59.017401",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101758_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:08.836197",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101808",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:08.869184",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101808_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:19.074571",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101819",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:19.113679",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101819_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:29.685719",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101829",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:29.744663",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101829_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:38.804441",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101838",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:38.834906",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101838_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:48.841639",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101848",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:48.880900",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101848_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:58.881829",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101858",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:18:58.927022",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101858_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:08.806713",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101908",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:08.846294",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101908_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:19.051006",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101919",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:19.112330",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101919_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:28.835357",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101928",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:28.890952",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101928_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:39.001232",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101938",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:39.034395",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101939_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:48.903615",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101948",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:48.942721",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101948_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:58.828126",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101958",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:19:58.866102",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_101958_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:09.046622",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102009",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:09.106556",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102009_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:18.884350",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102018",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:18.923780",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102018_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:28.901074",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102028",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:28.941386",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102028_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:38.977668",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102038",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:39.031524",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102039_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:48.832007",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102048",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:48.868282",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102048_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:58.800545",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102058",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:20:58.835534",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102058_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:08.875012",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102108",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:08.916585",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102108_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:18.817839",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102118",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:18.853055",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102118_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:28.967954",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102128",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:29.012649",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102128_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:38.892702",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102138",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:38.956251",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102138_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:48.854259",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102148",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:48.893168",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102148_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:58.928497",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102158",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:21:58.978719",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102158_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:08.916516",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102208",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:08.952563",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102208_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:18.894822",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102218",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:18.935059",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102218_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:28.931900",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102228",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:28.981323",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102228_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:38.909010",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102238",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:38.962828",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102238_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:48.945125",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102248",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:48.982785",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102248_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:59.119973",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102259",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:22:59.162472",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102259_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:09.048927",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102309",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:09.088252",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102309_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:19.037197",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102319",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:19.075268",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102319_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:29.094411",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102329",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:29.133501",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102329_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:39.061572",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102339",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:39.104104",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102339_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:49.104777",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102349",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:49.146972",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102349_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:59.103830",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102359",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:23:59.144734",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102359_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:09.079724",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102409",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:09.121363",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102409_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:19.086776",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102419",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:19.122981",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102419_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:29.275651",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102429",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:29.321446",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102429_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:39.219406",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102439",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:39.268596",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102439_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:49.107041",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102449",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:49.148593",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102449_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:59.155336",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102459",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:24:59.199441",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102459_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:25:09.201607",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102509",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:25:09.236747",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102509_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:25:19.231335",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102519",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:25:19.286546",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102519_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:25:29.668712",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102529",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:25:29.720100",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_102529_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T10:33:49.366700",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_103349",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:07:08.895490",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_110708",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:07:08.955438",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_110708_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:07:09.260273",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Facebook",
+      "post_id": "social_20260305_110709",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:07:09.312997",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Facebook",
+      "post_id": "social_20260305_110709_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:07:09.367907",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Instagram",
+      "post_id": "social_20260305_110709",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:07:09.417050",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Instagram",
+      "post_id": "social_20260305_110709_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:07:09.469416",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_110709",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:07:09.516594",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_110709_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:10:23.196593",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_111023",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:10:23.244053",
+    "operation": {
+      "action": "post_dry_run",
+      "platform": "Twitter",
+      "post_id": "social_20260305_111023_DRYRUN",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": true
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:25:37.549357",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_112537",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:25:37.634865",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Facebook",
+      "post_id": "social_20260305_112537",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:25:37.767465",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Instagram",
+      "post_id": "social_20260305_112537",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:27:24.304627",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_112724_244",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:27:24.367469",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Facebook",
+      "post_id": "social_20260305_112724_333",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:27:24.435747",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Instagram",
+      "post_id": "social_20260305_112724_399",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:37:32.954493",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260305_113732_906",
+      "content": "Recent Update results show we're moving in the right direction with 2026 positive indicators. #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:37:33.049178",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Facebook",
+      "post_id": "social_20260305_113733_006",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T11:37:33.186488",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Instagram",
+      "post_id": "social_20260305_113733_132",
+      "content": "Recent Update results show we're moving in the right direction with 2026 positive indicators. #202603"
+    }
+  },
+  {
+    "timestamp": "2026-03-05T23:15:53.970068",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Twitter",
+      "content": "Recent Update results show we're moving in the right direction with 2026 positive indicators. #202603",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://twitter.com/\", waiting until \"load\"\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-05T23:24:07.505855",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Twitter",
+      "post_id": "social_20260305_232407_476",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-09T07:44:35.466100",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Twitter",
+      "post_id": "social_20260309_074435_438",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-09T08:13:01.142757",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Facebook",
+      "post_id": "social_20260309_081301_014",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-09T08:22:41.991561",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "error": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"div[aria-label=\\\"Create a post\\\"], div[aria-placeholder*=\\\"What's on your mind\\\"], textarea[data-testid=\\\"fb-native-ad-caption-input\\\"], [aria-label=\\\"Create a post\\\"], div[role=\\\"button\\\"][tabindex=\\\"0\\\"]:has-text(\\\"Create Post\\\")\") to be visible\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-09T08:40:08.089331",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Instagram",
+      "content": "Recent Update results show we're moving in the right direction with 2026 positive indicators. #202603",
+      "error": "Page.wait_for_selector: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"svg[aria-label=\\\"Home\\\"], svg[aria-label=\\\"Profile\\\"], div[data-testid=\\\"logged-in\\\"]\") to be visible\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-09T09:51:54.039256",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Instagram",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "error": "User did not log in within the time limit. Please try again.",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-09T10:14:42.079071",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Twitter",
+      "content": "Test post from AI Employee system",
+      "error": "User did not log in within the time limit. Please try again.",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-09T11:01:49.251206",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Twitter",
+      "content": "Test post from AI Employee system",
+      "error": "User did not log in within the time limit. Please try again.",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T07:40:43.575472",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Twitter",
+      "content": "Test post from AI Employee system",
+      "error": "Page.wait_for_timeout: Target page, context or browser has been closed",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T07:54:02.437008",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Twitter",
+      "content": "Test post from AI Employee system",
+      "error": "User did not log in within the time limit. Please try again.",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T07:59:42.487064",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Twitter",
+      "content": "Test post from AI Employee system",
+      "error": "Page.wait_for_timeout: Target page, context or browser has been closed",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T08:11:17.828822",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Facebook",
+      "post_id": "social_20260310_081117_725",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T08:49:25.270142",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Facebook",
+      "post_id": "social_20260310_084925_193",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T09:11:48.283935",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Facebook",
+      "post_id": "social_20260310_091148_204",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T09:26:12.480716",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Facebook",
+      "post_id": "social_20260310_092612_381",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T09:53:12.518122",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Page.wait_for_timeout: Target page, context or browser has been closed",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:13:11.847515",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:13:12.691569",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Exciting updates from our business! Check out our latest metrics and achievements. #BusinessUpdate #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:13:12.792886",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "Rejected_SOCIAL_social_20260305_112724_333.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:20:13.532059",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:20:14.595129",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:20:14.671297",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "Rejected_SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:29:56.142393",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "'coroutine' object has no attribute 'goto'",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:29:56.235287",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:35:30.228748",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:35:31.454943",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:35:31.618394",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:39:07.772166",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:39:08.954796",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:39:09.037252",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:56:12.777048",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:56:14.395014",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-10T10:56:14.517881",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-10T11:06:48.794313",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T07:38:05.325805",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.facebook.com/\", waiting until \"load\"\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T07:38:05.461833",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-11T08:42:46.705196",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T08:42:48.875606",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T08:42:49.060956",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-11T09:06:04.759557",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T09:06:06.556781",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T09:06:06.704853",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-11T09:13:46.522389",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T09:13:48.031171",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T09:13:48.139098",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-03-11T09:51:27.212679",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T09:51:28.457566",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Facebook",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "error": "Failed to post to Facebook - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-03-11T09:51:28.572060",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "status": "rejected"
+    }
+  }
+]

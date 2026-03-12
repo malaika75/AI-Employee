@@ -57,6 +57,7 @@ vault/Logs/silver_test_flow.json
 # Credentials and tokens (CRITICAL: Never commit these)
 token.json
 credentials.json
+odoo_vault.json
 *.token
 *.credential
 *.secret
@@ -83,3 +84,6 @@ temp/
 # Task and process related files
 tasks/
 D:\Dev\Temp\claude\*
+
+# Social media session files
+.ai_employee/
