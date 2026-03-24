@@ -1,3 +1,321 @@
+# Personal AI Employee - Multi-Tier System
+
+A comprehensive AI employee automation system with Bronze, Silver, Gold, and Platinum tiers.
+
+## 📋 System Overview
+
+This project implements an AI-powered employee that handles:
+- 📧 Email triage and responses (Gmail integration)
+- 📱 Social media posting (Facebook, LinkedIn, Twitter)
+- 💰 Accounting & invoicing (Odoo ERP integration)
+- 📊 Weekly business audits and CEO briefings
+- 🔄 Task automation with human-in-the-loop approval
+- 🏥 Health monitoring and self-healing
+- 📈 Dashboard for system monitoring
+
+## 🏗️ System Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     AI EMPLOYEE SYSTEM                          │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ┌──────────────────────┐      ┌──────────────────────┐       │
+│  │   MAIN.PY            │      │  START_PROCESSES.PY  │       │
+│  │  (Platinum Core)     │      │  (MCP Servers)       │       │
+│  ├──────────────────────┤      ├──────────────────────┤       │
+│  │ • Health Monitor     │      │ • Email MCP          │       │
+│  │ • Self-Healing Mgr   │      │ • Odoo MCP           │       │
+│  │ • Orchestrator       │      │ • Social MCP         │       │
+│  │ • Dashboard (5000)   │      │ • Gmail Watcher      │       │
+│  │                      │      │ • File Watchers      │       │
+│  └──────────┬───────────┘      └──────────┬───────────┘       │
+│             │                             │                    │
+│             └─────────────┬───────────────┘                    │
+│                           ▼                                    │
+│              ┌─────────────────────────┐                       │
+│              │   VAULT/ (Shared Data)  │                       │
+│              ├─────────────────────────┤                       │
+│              │ • Needs_Action/         │                       │
+│              │ • Pending_Approval/     │                       │
+│              │ • Approved/             │                       │
+│              │ • Done/                 │                       │
+│              │ • Logs/                 │                       │
+│              │ • Secrets.json (🔒)     │                       │
+│              │ • Dashboard.md          │                       │
+│              └─────────────────────────┘                       │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+## 🚀 Quick Start Guide
+
+### Prerequisites
+```bash
+pip install -r requirements.txt
+```
+
+### Running the System
+
+**For Full Platinum Tier Experience (Recommended):**
+
+Open TWO terminals:
+
+**Terminal 1 - Core System:**
+```bash
+python main.py
+```
+Starts: Health Monitor, Self-Healing, Orchestrator, Dashboard (http://localhost:5000)
+
+**Terminal 2 - MCP Servers:**
+```bash
+python start_processes.py
+```
+Starts: Email MCP, Odoo MCP, Social MCP, Gmail Watcher, File Watchers
+
+### What Each Command Does
+
+| Command | Purpose | Components |
+|---------|---------|------------|
+| `python main.py` | Platinum Tier core system | Health Monitor, Self-Healing Manager, Executive Orchestrator, Dashboard Web UI |
+| `python start_processes.py` | MCP servers & watchers | Email/Odoo/Social MCP servers, Gmail/Filesystem/Process watchers |
+
+## 📊 Component Details
+
+### Main.py Components
+
+| Component | Function | Check Interval |
+|-----------|----------|----------------|
+| **Health Monitor** | Monitors system health, checks if services are running | Every 30 seconds |
+| **Self-Healing Manager** | Auto-restarts failed services, recovers from errors | Every 15 seconds |
+| **Executive Orchestrator** | Processes tasks from vault, manages workflow | Every 60 seconds |
+| **Dashboard** | Web UI for monitoring system status | Real-time (Port 5000) |
+
+### Start_processes.py Components
+
+| Component | Function | Purpose |
+|-----------|----------|---------|
+| **Email MCP** | Email operations with approval workflow | Send/draft emails via Gmail API |
+| **Odoo MCP** | ERP integration for invoices/payments | Create invoices, track payments |
+| **Social MCP** | Social media posting | Post to Facebook, LinkedIn, Twitter |
+| **Gmail Watcher** | Monitor Gmail inbox | Auto-triage incoming emails |
+| **Filesystem Watcher** | Monitor vault/Inbox folder | Detect new task files |
+| **Process Watcher** | Monitor vault changes | Trigger automated workflows |
+
+## 🔄 Workflow Diagram
+
+```
+┌─────────────┐
+│ New Email   │
+│ Arrives     │
+└──────┬──────┘
+       │
+       ▼
+┌─────────────────┐
+│ Gmail Watcher   │
+│ Detects Email   │
+└──────┬──────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Creates Task File   │
+│ in Needs_Action/    │
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Orchestrator        │
+│ Processes Task      │
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Email MCP Creates   │
+│ Draft Reply         │
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Moves to            │
+│ Pending_Approval/   │
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ 👤 Human Reviews    │
+│ Moves to Approved/  │
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Email MCP Sends     │
+│ Email via Gmail     │
+└──────┬──────────────┘
+       │
+       ▼
+┌─────────────────────┐
+│ Moves to Done/      │
+│ Logs to vault/Logs/ │
+└─────────────────────┘
+```
+
+## 📁 Vault Folder Structure
+
+| Folder | Purpose | Who Writes | Who Reads |
+|--------|---------|------------|-----------|
+| `Needs_Action/` | New tasks waiting to be processed | Watchers, MCP Servers | Orchestrator |
+| `Pending_Approval/` | Tasks requiring human approval | MCP Servers | Human, Orchestrator |
+| `Approved/` | Human-approved tasks ready to execute | Human | MCP Servers |
+| `Rejected/` | Human-rejected tasks | Human | Logging system |
+| `Done/` | Completed tasks | Orchestrator, MCP Servers | Weekly Audit |
+| `Logs/` | All system logs (JSON/JSONL) | All components | Dashboard, Audit |
+| `Drafts/` | Draft content (emails, posts) | MCP Servers | Human review |
+| `Archive/` | Old completed tasks | Orchestrator | Audit system |
+| `Briefings/` | Weekly CEO briefings | Weekly Audit | Human |
+
+### Important Notes
+
+- **All logs are stored in `vault/Logs/`** - Never in root directory
+- **Secrets are encrypted** - `vault/Secrets.json` uses Fernet encryption
+- **Dashboard available at** - http://localhost:5000 (when main.py is running)
+- **Human approval required** - All sensitive operations need manual approval in `vault/Pending_Approval/`
+
+## 🔐 Security Model
+
+| File | Status | Description |
+|------|--------|-------------|
+| `vault/Secrets.json` | 🔒 Encrypted | All API keys, passwords encrypted with Fernet |
+| `vault/Secrets.key` | 🔒 Ignored by git | Encryption key (NEVER commit) |
+| `vault/Users.json` | 🔒 Hashed | User passwords hashed with bcrypt |
+| `credentials.json` | 🔒 Ignored by git | Gmail OAuth credentials |
+| `*.env` files | 🔒 Ignored by git | Environment variables |
+
+### What Gets Pushed to GitHub
+
+| ✅ Safe to Push | ❌ Never Push |
+|----------------|---------------|
+| Python code (*.py) | vault/Secrets.json |
+| README.md | vault/Secrets.key |
+| requirements.txt | vault/Users.json |
+| .gitignore | credentials.json |
+| vault/Logs/*.json | *.env files |
+| vault/Dashboard.md | token.json |
+
+## 🎯 Tier Comparison
+
+| Feature | Bronze | Silver | Gold | Platinum |
+|---------|--------|--------|------|----------|
+| **File-based tasks** | ✅ | ✅ | ✅ | ✅ |
+| **Gmail integration** | ❌ | ✅ | ✅ | ✅ |
+| **Email MCP** | ❌ | ✅ | ✅ | ✅ |
+| **Social media posting** | ❌ | ✅ | ✅ | ✅ |
+| **Odoo ERP integration** | ❌ | ❌ | ✅ | ✅ |
+| **Weekly audit & CEO briefing** | ❌ | ❌ | ✅ | ✅ |
+| **Error recovery & retry** | ❌ | ❌ | ✅ | ✅ |
+| **Comprehensive logging** | ❌ | ❌ | ✅ | ✅ |
+| **Health monitoring** | ❌ | ❌ | ❌ | ✅ |
+| **Self-healing** | ❌ | ❌ | ❌ | ✅ |
+| **Dashboard UI** | ❌ | ❌ | ❌ | ✅ |
+| **Cloud/Local executive** | ❌ | ❌ | ❌ | ✅ |
+
+## 🛠️ Troubleshooting
+
+| Problem | Solution | Check |
+|---------|----------|-------|
+| **Dashboard not loading** | Ensure `main.py` is running | Visit http://localhost:5000 |
+| **Emails not being processed** | Check if `start_processes.py` is running | Look for Gmail Watcher in logs |
+| **Secrets not loading** | Run `python secrets_manager.py` to initialize | Check `vault/Secrets.json` exists |
+| **MCP server errors** | Check credentials in `vault/Secrets.json` | Review `vault/Logs/errors.json` |
+| **Tasks stuck in Pending_Approval** | Manually move files to `Approved/` or `Rejected/` | Check folder permissions |
+| **Health Monitor alerts** | Check `vault/Logs/health_alerts.json` | Restart failed services |
+| **Logs in wrong location** | All logs should be in `vault/Logs/` only | Delete any root `Logs/` folder |
+| **Git push rejected** | Ensure secrets are in `.gitignore` | Run `git check-ignore vault/Secrets.json` |
+
+## 📝 Quick Reference
+
+### Port Usage
+| Port | Service | URL |
+|------|---------|-----|
+| 5000 | Dashboard | http://localhost:5000 |
+| 8080 | Email MCP | http://localhost:8080 |
+| 8081 | Odoo MCP | http://localhost:8081 |
+| 8082 | Social MCP | http://localhost:8082 |
+
+### Log Files Location
+All logs are stored in `vault/Logs/`:
+- `full_audit.jsonl` - Complete audit trail
+- `errors.json` - Error logs
+- `odoo_operations.json` - Odoo operations
+- `social_operations.json` - Social media operations
+- `health_alerts.json` - Health monitoring alerts
+- `weekly_audit.json` - Weekly business audits
+
+### Key Commands
+```bash
+# Start everything
+python main.py                    # Terminal 1
+python start_processes.py         # Terminal 2
+
+# Initialize secrets (first time only)
+python secrets_manager.py
+
+# Test health monitoring
+python simple_health_test.py
+
+# Run weekly audit manually
+python weekly_audit.py
+
+# Create new user
+python create_users.py
+```
+
+## 🔐 Dashboard Login & Access
+
+### Accessing the Dashboard
+
+1. **Start the system:**
+   ```bash
+   python main.py
+   ```
+
+2. **Open browser:**
+   ```
+   http://localhost:5000
+   ```
+
+3. **Login with default credentials:**
+   - **Username:** `admin`
+   - **Password:** `admin`
+   - ⚠️ **Change this password immediately in production!**
+
+### User Roles & Permissions
+
+| Role | Dashboard Access | Approve Tasks | Manage Users | View Financials |
+|------|-----------------|---------------|--------------|-----------------|
+| **Admin** | Full access | ✅ Yes | ✅ Yes | ✅ Yes |
+| **Approver** | Most features | ✅ Yes | ❌ No | ✅ Yes |
+| **Viewer** | Basic status only | ❌ No | ❌ No | ❌ No |
+
+### Dashboard Features
+
+- 📊 **Real-time monitoring** (updates every 5 seconds)
+- 💻 **System health** (CPU, Memory, Disk)
+- 🚨 **Health alerts** (automatic system monitoring)
+- 📋 **Pending tasks** (Needs Action, Pending Approval, Drafts)
+- 💰 **Financial data** (Odoo invoices, revenue forecasts)
+- 📱 **Social media** (recent posts and activity)
+- 📝 **Live logs** (Social and Odoo operations)
+
+### Creating New Users
+
+```bash
+python create_users.py
+```
+
+Follow the prompts to create Admin, Approver, or Viewer accounts.
+
+---
+
 # Personal AI Employee - Bronze Tier
 
 This is a local-first AI employee implementation using Claude Code with file-based operations.
@@ -584,3 +902,176 @@ The Gold Tier implementation provides enterprise-grade business automation with 
    - Add your business goals to `Business_Goals.md`
    - Configure Odoo connection for financial data access
    - Set up social media accounts and permissions
+
+
+# Personal AI Employee - Platinum Tier
+
+Advanced distributed architecture with Always-on Cloud Executive and Local Executive coordination through synced vault system.
+
+## 🚀 Quick Start - Running the Complete System
+
+### Option 1: Platinum Tier (Recommended - Latest)
+Run the complete Platinum Tier system with health monitoring, self-healing, orchestrator, and dashboard:
+
+```bash
+python main.py
+```
+
+This starts:
+- ✅ Health Monitor (monitors system health every 30s)
+- ✅ Self-Healing Manager (auto-recovery every 15s)
+- ✅ Executive Orchestrator (task scheduler every 60s)
+- ✅ Dashboard Web UI (http://localhost:5000)
+
+### Option 2: Gold/Silver Tier (Legacy - All MCP Servers)
+Run all MCP servers and watchers for email, social, and Odoo integration:
+
+```bash
+python start_processes.py
+```
+
+This starts:
+- ✅ Process Watcher
+- ✅ Filesystem Watcher
+- ✅ Gmail Watcher
+- ✅ Email MCP Server
+- ✅ Odoo MCP Server
+- ✅ Social MCP Server
+
+### Option 3: Run Everything Together
+For complete functionality, run both commands in separate terminals:
+
+**Terminal 1:**
+```bash
+python main.py
+```
+
+**Terminal 2:**
+```bash
+python start_processes.py
+```
+
+This gives you the full Platinum Tier experience with all MCP integrations.
+
+---
+
+## Platinum Tier Architecture
+
+### Cloud Executive Responsibilities
+- **Email triage**: Categorizes incoming emails and creates draft replies
+- **Social post drafts**: Generates social media content drafts and scheduling suggestions
+- **Draft-only operations**: Creates drafts requiring local approval but does not execute final actions
+- **Read-only access**: Can read audit logs and system status but cannot modify sensitive operations
+- **Sync responsibility**: Pushes new drafts and categorized items to the shared vault
+
+### Local Executive Responsibilities
+- **Approvals**: Reviews and approves/rejects all pending actions
+- **WhatsApp session management**: Handles WhatsApp communications and sessions
+- **Payments and banking**: Processes financial transactions and banking operations
+- **Final send/post actions**: Executes final email sends, social media posts, and financial operations
+- **Dashboard updates**: Maintains the single-writer Dashboard.md file
+- **Sync responsibility**: Pulls cloud drafts and pushes approved actions
+
+## Enhanced Folder Structure
+```
+vault/
+├── Needs_Action/
+│   ├── email/
+│   ├── social/
+│   ├── odoo/
+│   ├── payment/
+│   └── whatsapp/
+├── Plans/
+│   ├── email/
+│   ├── social/
+│   ├── odoo/
+│   ├── payment/
+│   └── whatsapp/
+├── Pending_Approval/
+│   ├── email/
+│   ├── social/
+│   ├── odoo/
+│   ├── payment/
+│   └── whatsapp/
+├── In_Progress/
+│   ├── cloud_exec/
+│   └── local_exec/
+├── Updates/
+├── Signals/
+├── Drafts/
+├── Archive/
+├── Done/
+├── Approved/
+├── Rejected/
+├── Logs/
+└── Dashboard.md
+```
+
+## Key Features
+
+### 1. Claim-by-Move Rule
+- First agent to move item from `/Needs_Action` to `/In_Progress/<agent>/` owns it
+- Prevents duplicate processing of the same task
+- Implemented atomically to handle concurrent access
+
+### 2. Single-Writer Rule
+- Only Local Executive can update `Dashboard.md`
+- Prevents sync conflicts on dashboard updates
+- Cloud Executive can read but not write to dashboard
+
+### 3. Secret Protection
+- Secrets never sync to cloud via Git exclusions
+- Protected files: `.env`, tokens, sessions, banking credentials
+- Configured in `VaultSyncManager` exclusions
+
+### 4. Operation Separation
+- **Cloud Operations**: email_triage, draft_reply, social_post_draft, social_post_schedule, weekly_audit_read, odoo_read
+- **Local Operations**: approval, whatsapp_session, payments_banking, final_send, final_post, dashboard_write, email_send, social_post_execute, odoo_execute
+
+## Core Implementation
+
+### orchestrator.py
+The main orchestrator manages executive coordination:
+- `VaultSyncManager`: Handles Git-based vault synchronization with exclusions
+- `ExecutiveOrchestrator`: Main orchestrator class with cloud/local role management
+- Cloud operations: email triage, social draft creation
+- Local operations: approvals, final actions
+- Sync cycle management with pull/push operations
+
+### Deployment
+The system can be deployed on free cloud VMs (Oracle Cloud Free Tier recommended, or AWS free):
+- Cloud Executive runs on VM for continuous availability
+- Local Executive runs on user's machine for sensitive operations
+- Git-based synchronization with automatic exclusion of sensitive files
+
+## Running the System
+
+### Cloud Executive Setup
+```bash
+python3 orchestrator.py --vault-path ./vault --is-cloud --remote-repo <git_repo_url>
+```
+
+### Local Executive Setup
+```bash
+python3 orchestrator.py --vault-path ./vault --remote-repo <git_repo_url>
+```
+
+## Security Model
+
+### Data Flow Security
+- Cloud Executive never sees sensitive credentials
+- Local Executive handles all sensitive operations
+- Vault sync excludes all secret files
+- All communications through the shared vault with approval workflows
+
+### Access Control
+- Cloud Executive: Read access to most data, write to drafts and categorizations
+- Local Executive: Full access including sensitive operations
+- All operations follow the principle of least privilege
+
+### Audit Trail
+- All operations logged in `vault/Logs/orchestrator.log`
+- Dashboard updates provide system status
+- Git history provides change tracking (excluding secrets)
+
+The Platinum Tier implementation provides enterprise-grade distributed automation with secure separation of duties, continuous availability, and comprehensive synchronization.

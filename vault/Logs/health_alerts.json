@@ -1,0 +1,602 @@
+[
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.4%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:31:33.686994"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.3%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:31:39.376344"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.8%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:31:42.397072"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.5%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:31:50.544858"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.8%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:32:04.745221"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 34 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:32:04.745221"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 39 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:37:15.017398"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 44 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:42:25.232858"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.4%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:43:32.899057"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 90.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:44:29.357431"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.9%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:44:30.971355"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.3%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:44:31.685175"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.3%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:44:34.972733"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 93.6%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:44:37.877136"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.3%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:45:00.499595"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 47 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:45:00.499595"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.4%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:45:02.146377"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:45:02.739307"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.7%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:45:06.024545"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:45:33.787999"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.7%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:46:08.211321"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.4%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:46:11.013167"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 48 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:46:33.615152"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:49:12.086820"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:49:14.496158"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:49:17.207325"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.9%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:12.960706"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.0%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:15.095821"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:16.210574"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:18.661993"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 29 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:51:18.661993"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.6%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:21.389461"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:44.018967"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.5%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:46.263641"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.5%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:47.266509"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.5%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:49.826590"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.4%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:51:52.508933"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 20 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:51:52.508933"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:15.119836"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.3%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:17.352543"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.3%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:18.358121"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.3%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:20.920308"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.4%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:23.667764"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 92.7%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:46.240927"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.4%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:46.240927"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 54 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:52:46.240927"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:48.445992"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.0%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:49.439234"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:52:52.003555"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.0%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:53:48.862005"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:53:50.559746"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:53:51.964462"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:53:54.127805"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 32 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:53:54.127805"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.4%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:53:57.277194"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.7%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:19.920680"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.7%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:21.625236"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.8%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:23.058246"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.7%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:25.283795"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.7%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:28.373776"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 22 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:54:28.373776"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.3%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:51.041066"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.5%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:52.716769"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 95.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:54.303136"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.7%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:54.303136"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 93.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:56.436125"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.6%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:54:59.489345"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 23 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T03:54:59.489345"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.1%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:56:24.187497"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:56:25.823195"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:56:27.528963"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.2%",
+    "severity": "warning",
+    "timestamp": "2026-03-22T03:56:29.588965"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 62 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T04:00:01.403846"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 67 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T04:05:11.945376"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 72 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T04:10:22.199902"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 77 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-22T04:15:32.438618"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process odoo_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T10:53:19.792630"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process odoo_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T10:53:21.941179"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process social_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T10:53:22.010219"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process social_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T10:53:24.092202"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process odoo_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T11:21:33.271558"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process odoo_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T11:21:35.345057"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process social_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T11:21:35.364298"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process social_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T11:21:37.483488"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process odoo_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T11:26:49.352310"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process odoo_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T11:26:52.263157"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process social_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T11:26:52.326613"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process social_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T11:26:54.419581"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process odoo_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T11:30:56.210443"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process odoo_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T11:30:58.299295"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process social_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T11:30:58.360952"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process social_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T11:31:00.566232"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process odoo_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T11:37:55.366023"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process odoo_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T11:37:57.426636"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process social_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-03-24T11:37:57.505853"
+  },
+  {
+    "type": "mcp_restarted",
+    "message": "Successfully restarted MCP process social_mcp",
+    "severity": "info",
+    "timestamp": "2026-03-24T11:37:59.660260"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 27 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-24T12:05:50.894297"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.8%",
+    "severity": "warning",
+    "timestamp": "2026-03-24T12:06:52.999958"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.8%",
+    "severity": "warning",
+    "timestamp": "2026-03-24T12:06:53.184369"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 33 minutes",
+    "severity": "alert",
+    "timestamp": "2026-03-24T12:11:01.196423"
+  }
+]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Approved/Pending_Approval_SOCIAL_social_20260305_112724_399.md",
+                "file": "Plans/Plan_EMAIL_19ca24d5668b7315.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pending_Approval_SOCIAL_social_20260305_112724_399"
+              "title": "Plan_EMAIL_19ca24d5668b7315"
             }
           }
         ]
@@ -183,42 +183,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "596544c94875f64c",
+  "active": "014c89ee9f288bbe",
   "lastOpenFiles": [
+    "Archive/Pending_Approval_SOCIAL_social_20260309_080000.md",
+    "Archive/Pending_Approval_SOCIAL_social_20260305_113733_132.md",
+    "Archive/Pending_Approval_SOCIAL_social_20260305_112724_399.md",
+    "Archive/ODOO_INVOICE_FRESH.md",
+    "Archive/LINKEDIN_APPROVAL_2026-02-28.md",
+    "Logs/orchestrator.log",
+    "In_Progress/local_exec",
+    "In_Progress/cloud_exec",
+    "Pending_Approval/whatsapp",
+    "Pending_Approval/payment",
+    "Pending_Approval/odoo",
+    "Plans/whatsapp",
+    "Plans/payment",
+    "Plans/odoo",
+    "Needs_Action/whatsapp",
+    "Approved/ODOO_INVOICE_FRESH.md",
+    "Approved/LINKEDIN_APPROVAL_2026-02-28.md",
     "Approved/SOCIAL_social_20260305_113733_006.md",
-    "Logs/social_unknown_post_rejected_20260311_095128_572.json",
     "Done/SOCIAL_social_20260305_113733_006.md",
-    "Logs/social_Facebook_post_failed_20260311_095128_457.json",
-    "Logs/social_Facebook_post_failed_20260311_095127_212.json",
     "Approved/Pending_Approval_SOCIAL_social_20260305_112724_399.md",
-    "Logs/social_unknown_post_rejected_20260311_091348_139.json",
-    "Logs/social_Facebook_post_failed_20260311_091348_031.json",
-    "Logs/social_Facebook_post_failed_20260311_091346_522.json",
-    "Approved/Pending_Approval_SOCIAL_social_20260305_113733_132.md",
     "Approved/Pending_Approval_SOCIAL_social_20260309_080000.md",
+    "Approved/Pending_Approval_SOCIAL_social_20260305_113733_132.md",
+    "Pending_Approval/Email/EMAIL_19ca24d5668b7315.md",
+    "Needs_Action/test_stuck_task.md",
+    "Drafts/LinkedIn_post_2026-02-28.md",
+    "Drafts/LinkedIn_post_20260226_091300.md",
     "Done/Rejected_SOCIAL_social_20260305_112724_333.md",
-    "Logs/social_unknown_post_rejected_20260311_090606_704.json",
-    "Logs/social_Facebook_post_failed_20260311_090606_556.json",
-    "Logs/social_Facebook_post_failed_20260311_090604_759.json",
-    "Logs/social_unknown_post_rejected_20260311_084249_060.json",
     "Done/Pending_Approval_SOCIAL_social_20260302_100939.md",
     "Rejected/SOCIAL_social_20260305_113733_006.md",
     "Done/Pending_Approval_SOCIAL_social_20260305_112724_244.md",
     "Approved/Pending_Approval_SOCIAL_social_20260305_113733_006.md",
-    "Done/ODOO_INVOICE_FRESH.md",
     "Done/Pending_Approval_ODOO_Test_Client_20260304.md",
     "Approved/Pending_Approval_SOCIAL_social_20260305_112724_333.md",
     "Pending_Approval/Pending_Approval_SOCIAL_social_20260305_113733_132.md",
     "Logs/tasks_log.md",
     "Approved/Pending_Approval_SOCIAL_social_20260302_100939.md",
-    "Approved/Pending_Approval_SOCIAL_social_20260305_113732_906.md",
-    "Approved/Pending_Approval_SOCIAL_social_20260305_112724_244.md",
-    "Pending_Approval/Pending_Approval_SOCIAL_social_20260305_095727.md",
-    "Pending_Approval/LINKEDIN_APPROVAL_2026-02-28.md",
-    "Pending_Approval/Pending_Approval_SOCIAL_social_20260305_112537.md",
-    "Pending_Approval/Pending_Approval_SOCIAL_social_20260305_102449.md",
-    "Pending_Approval/Pending_Approval_SOCIAL_social_20260305_110708.md",
-    "Pending_Approval/Pending_Approval_SOCIAL_social_20260305_110709.md",
     "Untitled.canvas"
   ]
 }

@@ -5,7 +5,11 @@ google-auth-httplib2
 python-frontmatter
 pathlib
 watchdog
-PyYAML==6.0
+PyYAML>=6.0.1
 playwright>=1.40.0
 GitPython
 pandas
+flask==3.0.3
+flask-login==0.6.3
+flask-bcrypt
+psutil==6.0.0

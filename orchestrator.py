@@ -18,6 +18,9 @@ import subprocess
 import git  # Requires gitpython package: pip install GitPython
 
 
+from health_monitor import HealthMonitor
+
+
 class VaultSyncManager:
     """
     Manages synchronization between Cloud and Local vaults using Git
@@ -628,6 +631,11 @@ Please move this file to Approved or Rejected folder.
             while True:
                 try:
                     self.run_sync_cycle()
+
+                    # Update scheduler timestamp to indicate system is active
+                    health_monitor = HealthMonitor()
+                    health_monitor.update_scheduler_timestamp()
+
                     time.sleep(interval)
                 except Exception as e:
                     self.logger.error(f"Continuous sync error: {str(e)}")
@@ -636,6 +644,32 @@ Please move this file to Approved or Rejected folder.
         sync_thread = threading.Thread(target=sync_loop, daemon=True)
         sync_thread.start()
         self.logger.info(f"Continuous sync started with {interval}s interval")
+
+    def start_task_scheduler(self, interval: int = 60):
+        """
+        Start the task scheduler that processes vault tasks continuously
+        """
+        def scheduler_loop():
+            while True:
+                try:
+                    # Process tasks based on executive type
+                    if self.is_cloud_executive:
+                        self._process_cloud_tasks()
+                    else:
+                        self._process_local_tasks()
+
+                    # Update scheduler timestamp
+                    health_monitor = HealthMonitor()
+                    health_monitor.update_scheduler_timestamp()
+
+                    time.sleep(interval)
+                except Exception as e:
+                    self.logger.error(f"Scheduler error: {str(e)}")
+                    time.sleep(interval)
+
+        scheduler_thread = threading.Thread(target=scheduler_loop, daemon=True)
+        scheduler_thread.start()
+        self.logger.info(f"Task scheduler started with {interval}s interval")
 
 
 def main():
@@ -649,6 +683,7 @@ def main():
     parser.add_argument('--is-cloud', action='store_true', help='Run as cloud executive')
     parser.add_argument('--remote-repo', help='Remote repository URL for vault sync')
     parser.add_argument('--sync-interval', type=int, default=30, help='Sync interval in seconds')
+    parser.add_argument('--task-interval', type=int, default=60, help='Task processing interval in seconds')
 
     args = parser.parse_args()
 
@@ -666,6 +701,13 @@ def main():
     # Start continuous synchronization
     orchestrator.start_continuous_sync(interval=args.sync_interval)
 
+    # Start task scheduler
+    orchestrator.start_task_scheduler(interval=args.task_interval)
+
+    print(f"Sync interval: {args.sync_interval}s")
+    print(f"Task processing interval: {args.task_interval}s")
+    print("Orchestrator is running. Press Ctrl+C to stop.")
+
     # Keep the main thread alive
     try:
         while True:
@@ -674,6 +716,9 @@ def main():
         print("\nShutting down orchestrator...")
         # Perform any cleanup here if needed
 
+
+health_monitor = HealthMonitor()
+health_monitor.update_scheduler_timestamp()
 
 if __name__ == "__main__":
     main()

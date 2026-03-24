@@ -1,66 +1,15 @@
 [
   {
-    "timestamp": "2026-03-02T08:49:08.249087",
-    "user": "system",
-    "action": "approve_operation",
-    "status": "error",
-    "operation_id": "op_invoice_123_20260302_082500_000001",
-    "details": {
-      "approval_id": "invoice_123_20260302_082500_000001",
-      "message": "Operation invoice_123_20260302_082500_000001 already approved"
-    }
-  },
-  {
-    "timestamp": "2026-03-02T09:38:20.299017",
+    "timestamp": "2026-03-04T22:52:09.721096",
     "user": "system",
     "action": "invoice_posted",
-    "status": "error",
-    "operation_id": "post_invoice_error_123_20260302_093820",
+    "status": "success",
+    "operation_id": "post_invoice_6_20260304_225209",
     "details": {
-      "draft_id": 123,
-      "client_name": "Fresh Test Client",
+      "draft_id": 6,
+      "client_name": "Test Client",
       "amount": 750.0,
-      "error": "Record does not exist or has been deleted.\n(Record: account.move(123,), User: 2)",
-      "message": "Failed to post invoice 123 to Odoo"
-    }
-  },
-  {
-    "timestamp": "2026-03-04T10:06:18.815063",
-    "user": "system",
-    "action": "process_pending_invoice",
-    "status": "error",
-    "operation_id": "op_error_20260304_100618",
-    "details": {
-      "invoice_file": "vault/Accounting/ODOO_INVOICE_FRESH.md",
-      "error": "Not connected to Odoo",
-      "client_name": "Test Client",
-      "amount": 750.0
-    }
-  },
-  {
-    "timestamp": "2026-03-04T10:07:23.944625",
-    "user": "system",
-    "action": "process_pending_invoice",
-    "status": "error",
-    "operation_id": "op_error_20260304_100723",
-    "details": {
-      "invoice_file": "vault/Accounting/ODOO_INVOICE_FRESH.md",
-      "error": "Not connected to Odoo",
-      "client_name": "Test Client",
-      "amount": 750.0
-    }
-  },
-  {
-    "timestamp": "2026-03-04T10:32:09.810836",
-    "user": "system",
-    "action": "process_pending_invoice",
-    "status": "error",
-    "operation_id": "op_error_20260304_103209",
-    "details": {
-      "invoice_file": "vault/Accounting/ODOO_INVOICE_FRESH.md",
-      "error": "Not connected to Odoo",
-      "client_name": "Test Client",
-      "amount": 750.0
+      "message": "Invoice 6 successfully posted to Odoo"
     }
   }
 ]

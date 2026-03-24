@@ -64,6 +64,11 @@ odoo_vault.json
 *.pem
 *.key
 
+# Vault sensitive files (CRITICAL: Never commit these)
+vault/Secrets.json
+vault/Secrets.key
+vault/Users.json
+
 # Sensitive data files
 vault/.gmail_processed.json
 credentials.json

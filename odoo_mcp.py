@@ -20,10 +20,14 @@ import time
 from pathlib import Path
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+from urllib.parse import urlparse
 
 # Import the new utilities
 from retry_utils import retry_with_exponential_backoff
 from audit_logger import audit_logger
+
+# Import secrets manager
+from secrets_manager import SecretsManager
 
 
 # Set up logging
@@ -35,29 +39,34 @@ logger = logging.getLogger(__name__)
 
 
 class OdooMCP:
-    def __init__(self, vault_path: str):
+    def __init__(self, vault_path: str = None):
         """
         Initialize the Odoo MCP server.
 
         Args:
-            vault_path: Path to the vault containing Odoo connection credentials
+            vault_path: (Deprecated - kept for compatibility)
         """
-        self.vault_path = vault_path
+        self.vault_path = "deprecated"  # No longer used since we use encrypted secrets
         self.odoo: Optional[odoorpc.ODOO] = None
         self.uid: Optional[int] = None
         self.approval_queue_file = "approval_queue.pkl"
 
-        # Load Odoo connection details from vault
+        # Initialize secrets manager to get Odoo connection details
+        self.secrets_manager = SecretsManager()
+
+        # Load Odoo connection details from encrypted secrets
         try:
-            with open(vault_path, 'r') as f:
-                vault_data = json.load(f)
-                self.odoo_host = vault_data.get('odoo_host', 'localhost')
-                self.odoo_port = vault_data.get('odoo_port', 8069)
-                self.odoo_db = vault_data.get('odoo_db', 'ai_employee_db')
-                self.odoo_username = vault_data.get('odoo_username', 'admin')
-                self.odoo_password = vault_data.get('odoo_password', 'admin')
+            odoo_url = self.secrets_manager.get_secret('odoo_url', 'http://localhost:8069')
+            # Extract host and port from URL
+            from urllib.parse import urlparse
+            parsed_url = urlparse(odoo_url)
+            self.odoo_host = parsed_url.hostname or 'localhost'
+            self.odoo_port = parsed_url.port or int(self.secrets_manager.get_secret('odoo_port', 8069))
+            self.odoo_db = self.secrets_manager.get_secret('odoo_db_name', 'ai_employee_db')
+            self.odoo_username = self.secrets_manager.get_secret('odoo_api_key', 'admin')  # Usually API key or username
+            self.odoo_password = self.secrets_manager.get_secret('odoo_password', 'admin')  # Usually admin password or API key
         except Exception as e:
-            logger.error(f"Failed to load vault data: {e}")
+            logger.error(f"Failed to load encrypted vault data: {e}")
             raise
 
         # Load existing approval queue or create a new one
@@ -127,7 +136,7 @@ class OdooMCP:
         """
         try:
             # Create logs directory if it doesn't exist
-            logs_dir = os.path.join(self.vault_path.rsplit('/', 1)[0] if '/' in self.vault_path else os.path.dirname(self.vault_path), 'Logs')
+            logs_dir = os.path.join("vault", 'Logs')
             os.makedirs(logs_dir, exist_ok=True)
 
             error_log_file = os.path.join(logs_dir, 'errors.json')
@@ -548,7 +557,7 @@ class OdooMCP:
         """
         try:
             # Create logs directory if it doesn't exist
-            logs_dir = os.path.join(self.vault_path.rsplit('/', 1)[0] if '/' in self.vault_path else os.path.dirname(self.vault_path), 'Logs')
+            logs_dir = os.path.join("vault", 'Logs')
             os.makedirs(logs_dir, exist_ok=True)
 
             log_file = os.path.join(logs_dir, 'odoo_operations.json')
@@ -1517,14 +1526,14 @@ def create_app():
 
 def main():
     parser = argparse.ArgumentParser(description='MCP Server for Odoo Integration')
-    parser.add_argument('--vault-path', required=True, help='Path to the vault file containing Odoo credentials')
+    parser.add_argument('--vault-path', default=None, help='DEPRECATED - Path to the vault file containing Odoo credentials (not used anymore, using encrypted secrets)')
     parser.add_argument('--host', default='localhost', help='Host to bind the MCP server')
     parser.add_argument('--port', type=int, default=8080, help='Port to bind the MCP server')
 
     args = parser.parse_args()
 
     global odoo_mcp_instance
-    odoo_mcp_instance = OdooMCP(vault_path=args.vault_path)
+    odoo_mcp_instance = OdooMCP()  # No longer need vault_path since we use encrypted secrets
 
     # Try connecting to Odoo to verify configuration
     if not odoo_mcp_instance.connect():
