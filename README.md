@@ -57,5 +57,5 @@ Open `http://localhost:5000` to access the dashboard.
 
 ---
 
-**Built by** Your Name
+**Built by** Malaika Zahid
 **License**: MIT
