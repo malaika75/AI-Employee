@@ -1,0 +1,602 @@
+[
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:56:37.345017"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 138 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T16:56:37.345017"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:56:56.497451"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.3%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:56:56.497451"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:57:02.695306"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.6%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:57:02.695306"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:57:08.665394"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:57:34.400013"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:57:39.988940"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 139 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T16:57:39.988940"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 98.8%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:57:58.278995"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.9%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:57:58.278995"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:58:05.902903"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 99.6%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:58:11.343462"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 97.4%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:58:37.404692"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 99.6%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:58:42.710184"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 140 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T16:58:42.710184"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:59:00.351299"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:59:08.728231"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:59:14.080950"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 97.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T16:59:39.960376"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 99.6%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:00:16.371554"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:00:42.600940"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:00:47.712623"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 142 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T17:00:47.712623"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 97.8%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:01:02.622618"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.2%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:01:02.622618"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 98.1%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:01:49.995231"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:02:15.912500"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.7%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:02:15.912500"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.4%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:02:21.116279"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 144 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T17:02:21.116279"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.3%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:02:47.356023"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:02:52.250425"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 98.8%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:03:04.943214"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 90.2%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:03:18.591470"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.4%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:03:23.341934"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 98.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:03:49.769211"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.7%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:03:49.769211"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:03:55.121112"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 94.3%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:03:55.121112"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 145 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T17:03:55.121112"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 98.1%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:04:06.056806"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.7%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:04:06.056806"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.9%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:04:52.490857"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 99.3%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:04:58.438153"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 94.1%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:04:58.438153"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.8%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:05:07.185327"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 146 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T17:05:07.185327"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 92.8%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:05:23.665937"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 94.2%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:05:23.665937"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 99.3%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:05:30.118953"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 97.8%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:05:55.240264"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 174 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T17:32:58.099613"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 180 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T17:38:08.299412"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.6%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T17:40:06.506964"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:01:10.832968"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 503 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:01:16.824458"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 508 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:06:23.958812"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 90.4%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:07:23.312751"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 94.6%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:07:25.058955"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 513 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:11:29.175913"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:14:06.772360"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 98.9%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:14:37.926035"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 93.9%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:14:43.618122"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 518 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:16:34.323660"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 97.7%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:21:26.889217"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 523 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:21:39.486645"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 99.6%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:23:00.088182"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 95.1%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:24:27.548313"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 528 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:26:44.672479"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.8%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:28:10.532443"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 90.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:28:35.762500"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.9%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:29:06.820709"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 94.4%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:29:13.291786"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 99.6%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:29:37.916333"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.1%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:29:37.916333"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:29:44.603591"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 531 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:29:44.603591"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:29:48.065509"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:29:48.065509"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:30:09.452996"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 91.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:30:09.452996"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:30:16.194406"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:30:16.194406"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:30:40.889830"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 93.6%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:30:40.889830"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:30:47.747933"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 92.8%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:30:47.747933"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 532 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:30:47.747933"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 98.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:30:49.520231"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 537 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:35:54.772219"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 90.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:39:04.545807"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 93.5%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:40:30.645362"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 542 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:40:59.873188"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:41:32.809478"
+  },
+  {
+    "type": "cpu_high",
+    "message": "High CPU usage: 100.0%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:41:39.789996"
+  },
+  {
+    "type": "memory_high",
+    "message": "High memory usage: 90.3%",
+    "severity": "warning",
+    "timestamp": "2026-04-09T23:41:39.789996"
+  },
+  {
+    "type": "scheduler_inactive",
+    "message": "Scheduler has been inactive for 547 minutes",
+    "severity": "alert",
+    "timestamp": "2026-04-09T23:46:04.974834"
+  },
+  {
+    "type": "mcp_crashed",
+    "message": "MCP process social_mcp has crashed",
+    "severity": "critical",
+    "timestamp": "2026-04-09T23:46:26.494978"
+  }
+]

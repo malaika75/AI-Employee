@@ -1,40 +1,758 @@
 [
   {
-    "timestamp": "2026-03-17T10:14:28.647130",
-    "operation": {
-      "action": "post_failed",
-      "platform": "Facebook",
-      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
-      "error": "Failed to post to Facebook - post not detected",
-      "dry_run": false
-    }
-  },
-  {
-    "timestamp": "2026-03-17T10:14:29.846516",
-    "operation": {
-      "action": "post_failed",
-      "platform": "Facebook",
-      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
-      "error": "Failed to post to Facebook - post not detected",
-      "dry_run": false
-    }
-  },
-  {
-    "timestamp": "2026-03-17T10:14:30.026538",
+    "timestamp": "2026-04-06T11:59:29.006822",
     "operation": {
       "action": "post_rejected",
-      "filename": "SOCIAL_social_20260305_113733_006.md",
+      "filename": "LinkedIn_complete_test.md",
       "status": "rejected"
     }
   },
   {
-    "timestamp": "2026-03-17T11:27:36.311474",
+    "timestamp": "2026-04-06T12:20:51.943538",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "LinkedIn_post_2026-04-06_new.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T12:24:48.077311",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "LinkedIn_timeout_test.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T12:30:30.257875",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Page.wait_for_timeout: Target page, context or browser has been closed",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T09:00:03.911538",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Page.wait_for_timeout: Target page, context or browser has been closed",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T09:27:28.284477",
     "operation": {
       "action": "post_completed",
       "platform": "Facebook",
-      "post_id": "social_20260317_112736_304",
+      "post_id": "social_20260407_092728_246",
       "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
       "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T09:37:45.067467",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Facebook",
+      "post_id": "social_20260407_093745_021",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T09:42:34.521540",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_094234_448",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T09:57:22.978758",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_095722_674",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T10:07:11.781970",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_100711_638",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T10:19:59.133800",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Facebook",
+      "post_id": "social_20260407_101959_068",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T10:24:04.142542",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_102404_035",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T10:31:03.122662",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Page.reload: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - waiting for navigation until \"load\"\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T10:34:19.683491",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.linkedin.com/\", waiting until \"networkidle\"\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T10:42:25.189626",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_104225_087",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T10:51:22.288015",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_105122_127",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T10:54:43.779777",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_105443_579",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T11:19:25.032685",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T11:19:27.499332",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T11:26:20.045595",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_112619_933",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T11:36:35.502451",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T11:36:38.871681",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T11:40:55.180708",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_114055_102",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T12:02:22.377924",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Page.reload: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - waiting for navigation until \"load\"\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T12:14:22.548906",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_121422_320",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T12:24:47.758866",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T12:24:50.057738",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T15:23:51.711286",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T15:23:53.001681",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T15:38:25.211630",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T15:38:26.442284",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T15:45:08.295769",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T15:45:09.497159",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T15:53:49.480998",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T15:53:50.680946",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T16:03:13.315212",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.linkedin.com/\", waiting until \"networkidle\"\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T16:09:36.929334",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T16:09:38.435712",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T16:12:38.851826",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T16:12:40.161613",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T16:23:19.278380",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_162319_186",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T16:29:25.043545",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_162924_975",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T16:56:08.987443",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T16:56:10.553389",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T17:00:23.389357",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260407_170023_355",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T17:04:35.932795",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260407_170435_855",
+      "content": "\ud83d\ude80 Exciting progress on our AI Employee project! \n\nJust implemented automated social media workflows with intelligent approval systems. The future of work is here - AI agents handling routine tasks while humans focus on strategic decisions.\n\n#AI #Automation #FutureOfWork"
+    }
+  },
+  {
+    "timestamp": "2026-04-07T17:05:02.546106",
+    "operation": {
+      "action": "draft_created",
+      "platform": "Twitter",
+      "post_id": "social_20260407_170502_514",
+      "content": "Exciting progress on our AI Employee project! \n\nJust implemented automated social media workflows with intelligent approval systems. The future of work is here - AI agents handling routine tasks while humans focus on strategic decisions.\n\n#AI #Automation #FutureOfWork"
+    }
+  },
+  {
+    "timestamp": "2026-04-07T17:07:54.126266",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Twitter",
+      "content": "Exciting progress on our AI Employee project! \n\nJust implemented automated social media workflows with intelligent approval systems. The future of work is here - AI agents handling routine tasks while humans focus on strategic decisions.\n\n#AI #Automation #FutureOfWork",
+      "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://twitter.com/\", waiting until \"networkidle\"\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T17:24:23.224634",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Twitter",
+      "content": "Exciting progress on our AI Employee project! \n\nJust implemented automated social media workflows with intelligent approval systems. The future of work is here - AI agents handling routine tasks while humans focus on strategic decisions.\n\n#AI #Automation #FutureOfWork",
+      "error": "Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://twitter.com/\", waiting until \"networkidle\"\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-07T17:27:45.530612",
+    "operation": {
+      "action": "post_failed",
+      "platform": "Twitter",
+      "content": "Exciting progress on our AI Employee project! \n\nJust implemented automated social media workflows with intelligent approval systems. The future of work is here - AI agents handling routine tasks while humans focus on strategic decisions.\n\n#AI #Automation #FutureOfWork",
+      "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://twitter.com/\", waiting until \"networkidle\"\n",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T09:58:14.144480",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T09:58:19.137553",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T10:08:32.355587",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260408_100832_142",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T10:21:58.216073",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260408_102158_148",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T10:27:58.414440",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T10:27:59.958789",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T10:36:58.716386",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260408_103658_619",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T10:49:45.225248",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260408_104945_166",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T10:57:31.227527",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T10:57:32.760779",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:02:26.394866",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:02:28.303908",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:06:33.810434",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:06:35.493004",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:11:43.353199",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:11:44.487157",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:18:16.211017",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:18:17.588997",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Failed to post to LinkedIn - post not detected",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:25:06.322838",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260408_112506_251",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:31:07.324746",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260408_113107_252",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:38:15.156673",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260408_113815_096",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:57:02.999255",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "LinkedIn_post_2026-04-06_new.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-04-08T11:59:22.026532",
+    "operation": {
+      "action": "post_failed",
+      "platform": "LinkedIn",
+      "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+      "error": "Page.wait_for_timeout: Target page, context or browser has been closed",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T12:13:11.118991",
+    "operation": {
+      "action": "post_completed",
+      "platform": "LinkedIn",
+      "post_id": "social_20260408_121311_110",
+      "content": "We're thrilled to share that our AI employee system has successfully processed over 10,000+ emails with 98% accuracy this quarter. This milestone demonstrates our commitment to providing innovative AI solutions that help businesses automate routine tasks and improve productivity.\n\nOur latest features include:\n- Enhanced email processing algorithms\n- Improved response quality\n- Advanced approval workflows\n- Better integration capabilities\n\nWe're constantly evolving to meet the changing needs of businesses in the digital age. A huge thank you to our team for their dedication and to our clients for their trust in our solutions.\n\n#AI #Innovation #Productivity #Tech #ArtificialIntelligence",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T12:20:10.654608",
+    "operation": {
+      "action": "post_completed",
+      "platform": "Facebook",
+      "post_id": "social_20260408_122010_631",
+      "content": "Proud to share our Update progress with you. 04 achievements unlocked! #202603",
+      "dry_run": false
+    }
+  },
+  {
+    "timestamp": "2026-04-08T14:14:00.805753",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "EMAIL_19ca24d5668b7315.md",
+      "status": "rejected"
+    }
+  },
+  {
+    "timestamp": "2026-04-08T14:14:01.158044",
+    "operation": {
+      "action": "post_rejected",
+      "filename": "EMAIL_19ca24d5668b7315.md",
+      "status": "rejected"
     }
   }
 ]

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-04-06T10:56:34.534170",
+  "operation": {
+    "action": "post_failed",
+    "platform": "LinkedIn",
+    "content": "This is a test post to verify the social media posting workflow is working correctly.\n\nTesting the following:\n\u2705 File detection in Approved folder\n\u2705 Content extraction\n\u2705 LinkedIn browser automation\n\u2705 Status updates\n\u2705 File movement to Done/Errors\n\nIf you see this post on LinkedIn, the system is working perfectly!\n\n#AIAutomation #Testing #WorkflowAutomation",
+    "error": "User did not log in within the time limit. Please try again.",
+    "dry_run": false
+  }
+}

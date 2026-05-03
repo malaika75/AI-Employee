@@ -84,11 +84,11 @@ def get_unread_important_emails(service, processed_message_ids: Set[str]):
     Returns a list of email objects that haven't been processed yet.
     """
     try:
-        # Search for unread emails that are important
-        # Using 'is:important is:unread' query to get important unread emails
+        # Search for unread emails in inbox
+        # Using 'is:unread in:inbox' query to get all unread emails in inbox
         results = service.users().messages().list(
             userId='me',
-            q='is:important is:unread',
+            q='is:unread in:inbox',
             maxResults=10  # Limit to 10 emails per check to avoid rate limits
         ).execute()
 
@@ -327,10 +327,10 @@ def determine_email_priority(email_data: Dict[str, Any]) -> str:
 
 def create_email_markdown_file(email_data: Dict[str, Any], vault_path: Path):
     """
-    Create a markdown file for the email in the Needs_Action folder.
+    Create a markdown file for the email in the Needs_Action/email folder.
     """
-    needs_action_path = vault_path / 'Needs_Action'
-    needs_action_path.mkdir(exist_ok=True)  # Create folder if it doesn't exist
+    needs_action_path = vault_path / 'Needs_Action' / 'email'
+    needs_action_path.mkdir(parents=True, exist_ok=True)  # Create folder if it doesn't exist
 
     # Sanitize filename based on email subject and message ID
     safe_subject = "".join(c for c in email_data['subject'] if c.isalnum() or c in (' ', '-', '_')).rstrip()

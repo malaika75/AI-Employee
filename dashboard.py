@@ -32,7 +32,7 @@ health_monitor = HealthMonitor(check_interval=30)  # Check every 30 seconds
 health_monitor.start_monitoring()
 
 # Configuration
-VAULT_PATH = Path("vault")
+VAULT_PATH = Path("vault").resolve()  # Use absolute path
 LOGS_PATH = VAULT_PATH / "Logs"
 NEEDS_ACTION_PATH = VAULT_PATH / "Needs_Action"
 PENDING_APPROVAL_PATH = VAULT_PATH / "Pending_Approval"
@@ -49,12 +49,20 @@ USERS_FILE = VAULT_PATH / "Users.json"
 
 def get_users():
     """Load users from the Users.json file"""
+    # Debug: log the path being checked
+    with open('vault/Logs/login_debug.log', 'a') as f:
+        f.write(f"Checking USERS_FILE path: {USERS_FILE}\n")
+        f.write(f"USERS_FILE exists: {USERS_FILE.exists()}\n")
+        f.write(f"Current working directory: {os.getcwd()}\n")
+
     if not USERS_FILE.exists():
         return {}
     try:
         with open(USERS_FILE, 'r') as f:
             return json.load(f)
-    except (json.JSONDecodeError, FileNotFoundError):
+    except (json.JSONDecodeError, FileNotFoundError) as e:
+        with open('vault/Logs/login_debug.log', 'a') as f:
+            f.write(f"Error loading users: {e}\n")
         return {}
 
 def save_users(users):
@@ -345,6 +353,120 @@ def get_system_health():
         }
 
 
+def get_weekly_report():
+    """Generate detailed weekly report with day-by-day breakdown"""
+    try:
+        from datetime import datetime, timedelta
+        from collections import defaultdict
+
+        # Get last 7 days
+        now = datetime.now()
+        week_ago = now - timedelta(days=7)
+
+        # Structure: {day: {hour: {activities: []}}}
+        daily_activities = defaultdict(lambda: defaultdict(lambda: {'linkedin': 0, 'facebook': 0, 'twitter': 0, 'invoices': 0, 'emails': 0, 'activities': []}))
+
+        # Read social operations
+        social_log_path = LOGS_PATH / "social_operations.json"
+        if social_log_path.exists():
+            with open(social_log_path, 'r') as f:
+                try:
+                    logs = json.load(f)
+                    for log in logs:
+                        try:
+                            timestamp_str = log.get("timestamp", "")
+                            if timestamp_str:
+                                log_time = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00') if 'Z' in timestamp_str else timestamp_str)
+                                if log_time >= week_ago:
+                                    day_name = log_time.strftime('%A')
+                                    day_date = log_time.strftime('%Y-%m-%d')
+                                    hour = log_time.strftime('%H:%M')
+
+                                    operation = log.get("operation", {})
+                                    platform = operation.get("platform", "unknown").lower()
+                                    content = operation.get("content", operation.get("post", ""))[:50]
+
+                                    day_key = f"{day_name}, {day_date}"
+
+                                    if 'linkedin' in platform:
+                                        daily_activities[day_key][hour]['linkedin'] += 1
+                                    elif 'facebook' in platform:
+                                        daily_activities[day_key][hour]['facebook'] += 1
+                                    elif 'twitter' in platform:
+                                        daily_activities[day_key][hour]['twitter'] += 1
+
+                                    daily_activities[day_key][hour]['activities'].append({
+                                        'time': hour,
+                                        'type': 'social',
+                                        'platform': platform.title(),
+                                        'content': content,
+                                        'status': operation.get('status', 'completed')
+                                    })
+                        except:
+                            pass
+                except json.JSONDecodeError:
+                    pass
+
+        # Read Odoo operations
+        odoo_log_path = LOGS_PATH / "odoo_operations.json"
+        if odoo_log_path.exists():
+            with open(odoo_log_path, 'r') as f:
+                try:
+                    logs = json.load(f)
+                    for log in logs:
+                        try:
+                            timestamp_str = log.get("timestamp", "")
+                            if timestamp_str:
+                                log_time = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00') if 'Z' in timestamp_str else timestamp_str)
+                                if log_time >= week_ago:
+                                    day_name = log_time.strftime('%A')
+                                    day_date = log_time.strftime('%Y-%m-%d')
+                                    hour = log_time.strftime('%H:%M')
+
+                                    day_key = f"{day_name}, {day_date}"
+
+                                    if 'invoice' in log.get('action', '').lower():
+                                        daily_activities[day_key][hour]['invoices'] += 1
+                                        details = log.get('details', {})
+                                        daily_activities[day_key][hour]['activities'].append({
+                                            'time': hour,
+                                            'type': 'invoice',
+                                            'platform': 'Odoo',
+                                            'content': f"Invoice #{details.get('draft_id', 'N/A')} - Rs. {details.get('amount', 0)}",
+                                            'status': log.get('status', 'pending')
+                                        })
+                        except:
+                            pass
+                except json.JSONDecodeError:
+                    pass
+
+        # Convert to sorted list
+        weekly_data = []
+        for day in sorted(daily_activities.keys(), reverse=True):
+            day_summary = {
+                'day': day,
+                'total_linkedin': sum(h['linkedin'] for h in daily_activities[day].values()),
+                'total_facebook': sum(h['facebook'] for h in daily_activities[day].values()),
+                'total_twitter': sum(h['twitter'] for h in daily_activities[day].values()),
+                'total_invoices': sum(h['invoices'] for h in daily_activities[day].values()),
+                'hourly_activities': []
+            }
+
+            for hour in sorted(daily_activities[day].keys()):
+                if daily_activities[day][hour]['activities']:
+                    day_summary['hourly_activities'].append({
+                        'hour': hour,
+                        'activities': daily_activities[day][hour]['activities']
+                    })
+
+            weekly_data.append(day_summary)
+
+        return weekly_data
+    except Exception as e:
+        logger.error(f"Error generating weekly report: {e}")
+        return []
+
+
 def get_predictive_insights():
     """Calculate predictive insights from logs"""
     try:
@@ -495,7 +617,17 @@ def login():
         username = request.form['username']
         password = request.form['password']
 
+        # Log to file for debugging
+        with open('vault/Logs/login_debug.log', 'a') as f:
+            f.write(f"\n=== Login Attempt at {datetime.now()} ===\n")
+            f.write(f"Username: {username}\n")
+            f.write(f"Password length: {len(password)}\n")
+
         users = get_users()
+
+        with open('vault/Logs/login_debug.log', 'a') as f:
+            f.write(f"Loaded users: {list(users.keys())}\n")
+
         user_data = None
         user_id = None
 
@@ -504,14 +636,33 @@ def login():
             if data['username'] == username:
                 user_data = data
                 user_id = uid
+                with open('vault/Logs/login_debug.log', 'a') as f:
+                    f.write(f"User found: {uid}\n")
                 break
 
-        if user_data and bcrypt.check_password_hash(user_data['password'], password):
-            user = User(user_id, user_data['username'], user_data['role'])
-            login_user(user)
-            next_page = request.args.get('next')
-            return redirect(next_page) if next_page else redirect(url_for('dashboard'))
+        if user_data:
+            with open('vault/Logs/login_debug.log', 'a') as f:
+                f.write(f"Stored hash: {user_data['password']}\n")
+
+            password_match = bcrypt.check_password_hash(user_data['password'], password)
+
+            with open('vault/Logs/login_debug.log', 'a') as f:
+                f.write(f"Password match result: {password_match}\n")
+
+            if password_match:
+                user = User(user_id, user_data['username'], user_data['role'])
+                login_user(user)
+                with open('vault/Logs/login_debug.log', 'a') as f:
+                    f.write(f"Login successful!\n")
+                next_page = request.args.get('next')
+                return redirect(next_page) if next_page else redirect(url_for('dashboard'))
+            else:
+                with open('vault/Logs/login_debug.log', 'a') as f:
+                    f.write(f"Password mismatch!\n")
+                flash('Invalid username or password')
         else:
+            with open('vault/Logs/login_debug.log', 'a') as f:
+                f.write(f"User not found!\n")
             flash('Invalid username or password')
 
     return render_template('login.html')
@@ -567,6 +718,17 @@ def api_predictive():
     data = {
         "timestamp": datetime.now().isoformat(),
         "predictive_insights": get_predictive_insights()
+    }
+    return jsonify(data)
+
+
+@app.route('/api/weekly-report')
+@login_required
+def api_weekly_report():
+    """API endpoint for detailed weekly report - requires login"""
+    data = {
+        "timestamp": datetime.now().isoformat(),
+        "weekly_report": get_weekly_report()
     }
     return jsonify(data)
 
@@ -677,7 +839,14 @@ if __name__ == '__main__':
         .card {
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .col-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
         }
         .status-badge {
             padding: 5px 10px;
@@ -960,8 +1129,8 @@ if __name__ == '__main__':
         </div>
 
         <!-- Recent Invoices and Social Posts -->
-        <div class="row mb-4" id="financialAndSocialSection">
-            <div class="col-md-6 mb-3">
+        <div class="row g-3 mb-4" id="financialAndSocialSection" style="display: flex !important; flex-wrap: wrap !important;">
+            <div class="col-6" style="flex: 0 0 50% !important; max-width: 50% !important; padding: 0 15px !important;">
                 <div class="card h-100">
                     <div class="card-header bg-primary text-white">
                         <i class="fas fa-file-invoice-dollar me-2"></i>Recent Odoo Invoices
@@ -973,7 +1142,7 @@ if __name__ == '__main__':
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-3">
+            <div class="col-6" style="flex: 0 0 50% !important; max-width: 50% !important; padding: 0 15px !important;">
                 <div class="card h-100">
                     <div class="card-header bg-info text-white">
                         <i class="fas fa-share-alt me-2"></i>Social Posts
@@ -1042,9 +1211,25 @@ if __name__ == '__main__':
             </div>
         </div>
 
+        <!-- Weekly Activity Report - Beautiful Day-by-Day Breakdown -->
+        <div class="row mb-4" id="weeklyReportSection">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header text-white" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <i class="fas fa-calendar-week me-2"></i>Weekly Activity Report - Day by Day
+                    </div>
+                    <div class="card-body">
+                        <div id="weeklyReportContent">
+                            <div class="text-center text-muted py-4">Loading weekly report...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Live Logs - Visible to Approver and Admin only -->
-        <div class="row mb-4" id="logsSection">
-            <div class="col-md-6 mb-3">
+        <div class="row g-3 mb-4" id="logsSection" style="display: flex !important; flex-wrap: wrap !important;">
+            <div class="col-6" style="flex: 0 0 50% !important; max-width: 50% !important; padding: 0 15px !important;">
                 <div class="card h-100">
                     <div class="card-header bg-success text-white">
                         <i class="fas fa-rss me-2"></i>Live Social Logs
@@ -1056,7 +1241,7 @@ if __name__ == '__main__':
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-3">
+            <div class="col-6" style="flex: 0 0 50% !important; max-width: 50% !important; padding: 0 15px !important;">
                 <div class="card h-100">
                     <div class="card-header bg-warning text-dark">
                         <i class="fas fa-database me-2"></i>Live Odoo Logs
@@ -1103,9 +1288,9 @@ if __name__ == '__main__':
                         // For Admin and Approver, show all sections
                         if (systemHealthSection) systemHealthSection.style.display = 'block';
                         if (healthAlertsSection) healthAlertsSection.style.display = 'block';
-                        if (financialAndSocialSection) financialAndSocialSection.style.display = 'block';
+                        if (financialAndSocialSection) financialAndSocialSection.style.display = 'flex';
                         if (predictiveSection) predictiveSection.style.display = 'block';
-                        if (logsSection) logsSection.style.display = 'block';
+                        if (logsSection) logsSection.style.display = 'flex';
                     }
                 })
                 .catch(error => {
@@ -1341,10 +1526,124 @@ if __name__ == '__main__':
         // Initial load for predictive analytics
         updatePredictiveAnalytics();
 
+        function updateWeeklyReport() {
+            fetch('/api/weekly-report')
+                .then(response => response.json())
+                .then(data => {
+                    const weeklyData = data.weekly_report;
+                    const reportContent = document.getElementById('weeklyReportContent');
+
+                    if (weeklyData && weeklyData.length > 0) {
+                        reportContent.innerHTML = '';
+
+                        weeklyData.forEach(day => {
+                            const dayCard = document.createElement('div');
+                            dayCard.className = 'card mb-3';
+                            dayCard.style.borderLeft = '5px solid #667eea';
+
+                            // Day header with summary
+                            const dayHeader = `
+                                <div class="card-header" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-6">
+                                            <h5 class="mb-0"><i class="fas fa-calendar-day me-2"></i>${day.day}</h5>
+                                        </div>
+                                        <div class="col-md-6 text-end">
+                                            <span class="badge bg-primary me-1"><i class="fab fa-linkedin me-1"></i>${day.total_linkedin}</span>
+                                            <span class="badge bg-info me-1"><i class="fab fa-facebook me-1"></i>${day.total_facebook}</span>
+                                            <span class="badge bg-info me-1"><i class="fab fa-twitter me-1"></i>${day.total_twitter}</span>
+                                            <span class="badge bg-success"><i class="fas fa-file-invoice me-1"></i>${day.total_invoices}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+
+                            dayCard.innerHTML = dayHeader;
+
+                            // Day body with hourly activities
+                            const dayBody = document.createElement('div');
+                            dayBody.className = 'card-body';
+
+                            if (day.hourly_activities && day.hourly_activities.length > 0) {
+                                day.hourly_activities.forEach(hourBlock => {
+                                    const hourDiv = document.createElement('div');
+                                    hourDiv.className = 'mb-3 pb-3 border-bottom';
+
+                                    hourDiv.innerHTML = `<h6 class="text-muted"><i class="fas fa-clock me-2"></i>${hourBlock.hour}</h6>`;
+
+                                    const activitiesList = document.createElement('div');
+                                    activitiesList.className = 'ms-4';
+
+                                    hourBlock.activities.forEach(activity => {
+                                        const activityItem = document.createElement('div');
+                                        activityItem.className = 'mb-2 p-2 rounded';
+
+                                        let bgColor = '#f8f9fa';
+                                        let icon = 'fa-circle';
+                                        let iconColor = '#6c757d';
+
+                                        if (activity.type === 'social') {
+                                            if (activity.platform.toLowerCase().includes('linkedin')) {
+                                                bgColor = '#e7f3ff';
+                                                icon = 'fab fa-linkedin';
+                                                iconColor = '#0077b5';
+                                            } else if (activity.platform.toLowerCase().includes('facebook')) {
+                                                bgColor = '#e7f3ff';
+                                                icon = 'fab fa-facebook';
+                                                iconColor = '#1877f2';
+                                            } else if (activity.platform.toLowerCase().includes('twitter')) {
+                                                bgColor = '#e7f3ff';
+                                                icon = 'fab fa-twitter';
+                                                iconColor = '#1da1f2';
+                                            }
+                                        } else if (activity.type === 'invoice') {
+                                            bgColor = '#d4edda';
+                                            icon = 'fa-file-invoice-dollar';
+                                            iconColor = '#28a745';
+                                        }
+
+                                        activityItem.style.backgroundColor = bgColor;
+                                        activityItem.innerHTML = `
+                                            <div class="d-flex align-items-start">
+                                                <i class="${icon} me-2" style="color: ${iconColor}; margin-top: 3px;"></i>
+                                                <div class="flex-grow-1">
+                                                    <strong>${activity.platform}</strong>
+                                                    <div class="small text-muted">${activity.content}...</div>
+                                                    <span class="badge badge-sm ${activity.status === 'completed' ? 'bg-success' : activity.status === 'pending' ? 'bg-warning' : 'bg-secondary'}">${activity.status}</span>
+                                                </div>
+                                            </div>
+                                        `;
+
+                                        activitiesList.appendChild(activityItem);
+                                    });
+
+                                    hourDiv.appendChild(activitiesList);
+                                    dayBody.appendChild(hourDiv);
+                                });
+                            } else {
+                                dayBody.innerHTML = '<p class="text-muted text-center">No activities recorded for this day</p>';
+                            }
+
+                            dayCard.appendChild(dayBody);
+                            reportContent.appendChild(dayCard);
+                        });
+                    } else {
+                        reportContent.innerHTML = '<div class="text-center text-muted py-4">No weekly data available</div>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error updating weekly report:', error);
+                });
+        }
+
+        // Initial load for weekly report
+        updateWeeklyReport();
+
         // Set up auto-refresh every 5 seconds for both main dashboard and predictive analytics
         refreshInterval = setInterval(function() {
             updateDashboard();
             updatePredictiveAnalytics();
+            updateWeeklyReport();
         }, 5000);
 
         // Clean up on page unload

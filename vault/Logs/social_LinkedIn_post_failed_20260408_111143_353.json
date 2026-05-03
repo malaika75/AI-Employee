@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-04-08T11:11:43.353199",
+  "operation": {
+    "action": "post_failed",
+    "platform": "LinkedIn",
+    "content": "After months of refining our AI employee system, we've learned that successful automation isn't just about the technology\u2014it's about the integration.\n\nOur latest milestone: processing 10,000+ emails with 98% accuracy. But the real breakthrough? Understanding that AI works best when it complements human decision-making, not replaces it.\n\nThree key insights from our journey:\n\n1. **Approval workflows matter** - Giving teams control over AI outputs builds trust and improves results\n2. **Context is everything** - AI that understands your business processes outperforms generic solutions 10x\n3. **Start small, scale smart** - Begin with one workflow, perfect it, then expand\n\nWe're seeing businesses transform their operations by automating the routine while keeping humans focused on strategy and relationships.\n\nThe future of work isn't human vs. machine\u2014it's human + machine, working in harmony.\n\nWhat's your experience with AI automation? I'd love to hear what's working (or not working) for you.\n\n#AI #Automation #BusinessIntelligence #FutureOfWork #ProductivityTools #DigitalTransformation",
+    "error": "Failed to post to LinkedIn - post not detected",
+    "dry_run": false
+  }
+}

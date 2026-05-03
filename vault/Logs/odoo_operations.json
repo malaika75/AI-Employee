@@ -11,5 +11,112 @@
       "amount": 750.0,
       "message": "Invoice 6 successfully posted to Odoo"
     }
+  },
+  {
+    "timestamp": "2026-04-09T11:08:56.603889",
+    "user": "system",
+    "action": "process_pending_invoice",
+    "status": "error",
+    "operation_id": "op_error_20260409_110856",
+    "details": {
+      "invoice_file": "vault/Accounting/ODOO_INVOICE_FRESH.md",
+      "error": "Not connected to Odoo",
+      "client_name": "Test Client",
+      "amount": 750.0
+    }
+  },
+  {
+    "timestamp": "2026-04-09T11:51:51.455351",
+    "user": "system",
+    "action": "invoice_posted",
+    "status": "success",
+    "operation_id": "post_invoice_8_20260409_115151",
+    "details": {
+      "draft_id": 8,
+      "client_name": "ABC Company",
+      "amount": 45000,
+      "message": "Invoice 8 successfully posted to Odoo"
+    }
+  },
+  {
+    "timestamp": "2026-04-09T11:51:53.432328",
+    "user": "system",
+    "action": "invoice_posted",
+    "status": "success",
+    "operation_id": "post_invoice_8_20260409_115153",
+    "details": {
+      "draft_id": 8,
+      "client_name": "ABC Company",
+      "amount": 45000,
+      "message": "Invoice 8 successfully posted to Odoo"
+    }
+  },
+  {
+    "timestamp": "2026-04-09T11:51:53.511090",
+    "user": "system",
+    "action": "invoice_posted",
+    "status": "error",
+    "operation_id": "post_invoice_error_8_20260409_115153",
+    "details": {
+      "draft_id": 8,
+      "client_name": "ABC Company",
+      "amount": 45000,
+      "error": "[WinError 2] The system cannot find the file specified: 'vault\\\\Approved\\\\ODOO_invoice_ABC_Company_20260409_111800.md' -> 'vault\\\\Done\\\\ODOO_invoice_ABC_Company_20260409_111800.md'",
+      "message": "Failed to post invoice 8 to Odoo"
+    }
+  },
+  {
+    "timestamp": "2026-04-09T11:51:54.170288",
+    "user": "system",
+    "action": "invoice_posted",
+    "status": "success",
+    "operation_id": "post_invoice_8_20260409_115154",
+    "details": {
+      "draft_id": 8,
+      "client_name": "ABC Company",
+      "amount": 45000,
+      "message": "Invoice 8 successfully posted to Odoo"
+    }
+  },
+  {
+    "timestamp": "2026-04-09T11:51:54.222955",
+    "user": "system",
+    "action": "invoice_posted",
+    "status": "error",
+    "operation_id": "post_invoice_error_8_20260409_115154",
+    "details": {
+      "draft_id": 8,
+      "client_name": "ABC Company",
+      "amount": 45000,
+      "error": "[WinError 2] The system cannot find the file specified: 'vault\\\\Approved\\\\ODOO_invoice_ABC_Company_20260409_111800.md' -> 'vault\\\\Done\\\\ODOO_invoice_ABC_Company_20260409_111800.md'",
+      "message": "Failed to post invoice 8 to Odoo"
+    }
+  },
+  {
+    "timestamp": "2026-04-09T11:51:54.507741",
+    "user": "system",
+    "action": "invoice_posted",
+    "status": "success",
+    "operation_id": "post_invoice_8_20260409_115154",
+    "details": {
+      "draft_id": 8,
+      "client_name": "ABC Company",
+      "amount": 45000,
+      "message": "Invoice 8 successfully posted to Odoo"
+    }
+  },
+  {
+    "timestamp": "2026-04-09T11:51:54.581178",
+    "user": "system",
+    "action": "invoice_posted",
+    "status": "error",
+    "operation_id": "post_invoice_error_8_20260409_115154",
+    "details": {
+      "draft_id": 8,
+      "client_name": "ABC Company",
+      "amount": 45000,
+      "error": "[WinError 2] The system cannot find the file specified: 'vault\\\\Approved\\\\ODOO_invoice_ABC_Company_20260409_111800.md' -> 'vault\\\\Done\\\\ODOO_invoice_ABC_Company_20260409_111800.md'",
+      "message": "Failed to post invoice 8 to Odoo"
+    }
   }
 ]

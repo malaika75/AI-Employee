@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-04-07T17:24:23.224634",
+  "operation": {
+    "action": "post_failed",
+    "platform": "Twitter",
+    "content": "Exciting progress on our AI Employee project! \n\nJust implemented automated social media workflows with intelligent approval systems. The future of work is here - AI agents handling routine tasks while humans focus on strategic decisions.\n\n#AI #Automation #FutureOfWork",
+    "error": "Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://twitter.com/\", waiting until \"networkidle\"\n",
+    "dry_run": false
+  }
+}

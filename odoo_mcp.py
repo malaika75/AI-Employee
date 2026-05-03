@@ -1179,10 +1179,16 @@ class ApprovalWatcher(FileSystemEventHandler):
             return
 
         file_path = event.src_path
+        filename = Path(file_path).name
+
+        # Only handle ODOO/INVOICE files, skip EMAIL and SOCIAL files
         if Path(file_path).suffix == '.md':
-            logger.info(f"New approval file detected: {Path(file_path).name}")
-            time.sleep(1)  # Small delay to ensure file is fully written
-            self.odoo_mcp.process_approval_file(file_path)
+            if 'ODOO' in filename.upper() or 'INVOICE' in filename.upper():
+                logger.info(f"New approval file detected: {filename}")
+                time.sleep(1)  # Small delay to ensure file is fully written
+                self.odoo_mcp.process_approval_file(file_path)
+            else:
+                logger.info(f"Skipping non-Odoo file: {filename} (will be handled by other MCP)")
 
     def on_moved(self, event):
         if event.is_directory:
@@ -1208,10 +1214,16 @@ class ApprovalWatcher(FileSystemEventHandler):
             return
 
         file_path = event.src_path
+        filename = Path(file_path).name
+
+        # Only handle ODOO/INVOICE files, skip EMAIL and SOCIAL files
         if Path(file_path).suffix == '.md':
-            logger.info(f"New approval file detected: {Path(file_path).name}")
-            time.sleep(1)  # Small delay to ensure file is fully written
-            self.odoo_mcp.process_approval_file(file_path)
+            if 'ODOO' in filename.upper() or 'INVOICE' in filename.upper():
+                logger.info(f"New approval file detected: {filename}")
+                time.sleep(1)  # Small delay to ensure file is fully written
+                self.odoo_mcp.process_approval_file(file_path)
+            else:
+                logger.info(f"Skipping non-Odoo file: {filename} (will be handled by other MCP)")
 
     def on_moved(self, event):
         if event.is_directory:
@@ -1563,6 +1575,18 @@ def main():
         web.run_app(app, host=args.host, port=args.port)
     except KeyboardInterrupt:
         logger.info("Shutting down MCP server...")
+    except OSError as e:
+        if "10048" in str(e) or "address already in use" in str(e).lower():
+            logger.error(f"Port {args.port} is already in use. Odoo MCP may already be running.")
+            logger.info("Running in watcher-only mode (no web server)")
+            # Keep the watcher running even if web server can't start
+            try:
+                while True:
+                    time.sleep(1)
+            except KeyboardInterrupt:
+                logger.info("Shutting down MCP server...")
+        else:
+            raise
     finally:
         observer.stop()
         observer.join()

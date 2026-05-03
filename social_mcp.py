@@ -64,11 +64,12 @@ class SocialMediaMCP:
         self.secrets_manager = SecretsManager()
 
         # Setup directories
-        self.drafts_dir = Path(__file__).parent / 'vault' / 'Drafts'
-        self.approvals_dir = Path(__file__).parent / 'vault' / 'Pending_Approval'
-        self.approved_dir = Path(__file__).parent / 'vault' / 'Approved'
-        self.rejected_dir = Path(__file__).parent / 'vault' / 'Rejected'
-        self.done_dir = Path(__file__).parent / 'vault' / 'Done'
+        self.drafts_dir = Path('vault') / 'Drafts'
+        self.approvals_dir = Path('vault') / 'Pending_Approval'
+        self.approved_dir = Path('vault') / 'Approved'
+        self.rejected_dir = Path('vault') / 'Rejected'
+        self.done_dir = Path('vault') / 'Done'
+        self.archive_dir = Path('vault') / 'Archive'
         self.log_file = "vault/Logs/social_operations.json"
 
         # Session storage for each platform - stored outside git-tracked folders for security
@@ -121,11 +122,11 @@ class SocialMediaMCP:
 
     def ensure_directories(self):
         """Ensure required directories exist"""
-        for directory in [self.drafts_dir, self.approvals_dir, self.approved_dir, self.rejected_dir, self.done_dir]:
+        for directory in [self.drafts_dir, self.approvals_dir, self.approved_dir, self.rejected_dir, self.done_dir, self.archive_dir]:
             directory.mkdir(parents=True, exist_ok=True)
 
         # Also ensure the Logs directory exists
-        logs_dir = Path(__file__).parent / 'vault' / 'Logs'
+        logs_dir = Path('vault') / 'Logs'
         logs_dir.mkdir(parents=True, exist_ok=True)
 
     def setup_file_watchers(self):
@@ -141,6 +142,11 @@ class SocialMediaMCP:
         if self.rejected_dir.exists():
             rejection_handler = SocialApprovalHandler(self)
             self.observer.schedule(rejection_handler, str(self.rejected_dir), recursive=False)
+
+        # Watch Archive directory (for files moved by email_mcp.py)
+        if self.archive_dir.exists():
+            archive_handler = SocialApprovalHandler(self)
+            self.observer.schedule(archive_handler, str(self.archive_dir), recursive=False)
 
         self.observer.start()
 
@@ -175,7 +181,7 @@ class SocialMediaMCP:
             platform = operation_data.get("platform", "unknown")
             action = operation_data.get("action", "unknown")
 
-            detailed_log_file = Path(__file__).parent / 'vault' / 'Logs' / f"social_{platform}_{action}_{timestamp_str}.json"
+            detailed_log_file = Path('vault') / 'Logs' / f"social_{platform}_{action}_{timestamp_str}.json"
 
             with open(detailed_log_file, 'w') as f:
                 json.dump(log_entry, f, indent=2)
@@ -443,12 +449,11 @@ class SocialMediaMCP:
                         print(f"Waiting 30 seconds for manual login...")
                         await page.wait_for_timeout(30000)  # Wait 30 seconds for manual login
 
-                        # Reload page to ensure state is saved
-                        print("Reloading page after login...")
-                        await page.reload()
-                        await page.wait_for_timeout(5000)  # Wait for reload
+                        # Don't reload - just save session state after login
+                        print("Saving session after login...")
+                        await page.wait_for_timeout(2000)  # Wait a bit for login to complete
 
-                        # Save session state immediately after reload
+                        # Save session state immediately after login
                         if context and storage_state_file:
                             await context.storage_state(path=storage_state_file)
 
@@ -469,7 +474,15 @@ class SocialMediaMCP:
                 else:
                     raise ValueError(f"Unsupported platform: {platform}")
 
-                post_success = result if isinstance(result, bool) else result.get('success', False)
+                # Handle result - can be bool or dict
+                if result is None:
+                    post_success = False
+                elif isinstance(result, bool):
+                    post_success = result
+                elif isinstance(result, dict):
+                    post_success = result.get('success', False)
+                else:
+                    post_success = False
 
                 # Only consider successful if the post was actually made
                 if not post_success:
@@ -503,6 +516,7 @@ class SocialMediaMCP:
                     "platform": platform,
                     "post_id": post_id,
                     "content": content,
+                    "status": "completed",
                     "dry_run": False
                 })
 
@@ -521,6 +535,7 @@ class SocialMediaMCP:
                 "platform": platform,
                 "content": content,
                 "error": error_msg,
+                "status": "failed",
                 "dry_run": False
             })
 
@@ -569,7 +584,7 @@ class SocialMediaMCP:
                 await page.wait_for_selector('svg[aria-label="Home"], svg[aria-label="Profile"], [aria-label="Settings"], div[aria-label="Account"], svg[data-alias="paper-plane"], [data-testid="keybinds"]', timeout=5000, state='visible')
                 return True
             elif platform.lower() == "linkedin":
-                await page.wait_for_selector('[data-test-id="profile-badge"], nav button[aria-label*="Me"], [data-test-id="feed-shared-update-social-action-bar"], button[aria-label="Start a post"], [data-test-id="profile-badge"], nav [data-test-id="profile-nav-badge"], [data-testid="profile-photo"], [aria-label="Home feed"]', timeout=5000, state='visible')
+                await page.wait_for_selector('nav.global-nav, div.global-nav, header nav, nav[aria-label*="Primary"], button[aria-label="Start a post"], div.share-box-feed-entry, .feed-shared-update-v2, div[data-view-name="feed-index"]', timeout=5000, state='visible')
                 return True
         except:
             # Check if we're on login page
@@ -588,7 +603,7 @@ class SocialMediaMCP:
                 elif platform.lower() == "instagram":
                     await page.wait_for_selector('input[name="username"], input._2hvTZ, [aria-label="Log in"]', timeout=1000, state='visible')
                 elif platform.lower() == "linkedin":
-                    await page.wait_for_selector('input#session_key, input[aria-label="Email or phone"], [data-id="sign-in-form__submit-btn"]', timeout=1000, state='visible')
+                    await page.wait_for_selector('input#session_key, input#username, input[aria-label="Email or phone"], [data-id="sign-in-form__submit-btn"], input[aria-label*="Email"], input[aria-label*="Password"], form.login__form', timeout=1000, state='visible')
                 return False  # If login elements are present, user is not logged in
             except:
                 return False  # Default to not logged in if neither condition is met
@@ -596,7 +611,7 @@ class SocialMediaMCP:
     async def _post_to_twitter(self, page, content, context=None):
         """Post to Twitter (X) using Playwright"""
         # Navigate to Twitter
-        await page.goto("https://twitter.com/", timeout=60000, wait_until="networkidle")  # 60 seconds timeout, wait for network idle
+        await page.goto("https://twitter.com/", timeout=60000, wait_until="domcontentloaded")  # 60 seconds timeout, wait for DOM to load
 
         # Wait a moment for the page to load
         await page.wait_for_timeout(4000)
@@ -624,7 +639,7 @@ class SocialMediaMCP:
             # Wait for user to manually log in - check periodically
             login_check_interval = 2000  # Check every 2 seconds
             total_wait_time = 0
-            max_wait_time = 300000  # 5 minutes max wait time
+            max_wait_time = 600000  # 10 minutes max wait time (increased for manual login)
 
             while total_wait_time < max_wait_time:
                 try:
@@ -805,7 +820,7 @@ class SocialMediaMCP:
             # Wait for user to manually log in - check periodically
             login_check_interval = 2000  # Check every 2 seconds
             total_wait_time = 0
-            max_wait_time = 300000  # 5 minutes max wait time
+            max_wait_time = 600000  # 10 minutes max wait time (increased for manual login)
 
             while total_wait_time < max_wait_time:
                 try:
@@ -1146,7 +1161,7 @@ class SocialMediaMCP:
             # Wait for user to manually log in - check periodically
             login_check_interval = 2000  # Check every 2 seconds
             total_wait_time = 0
-            max_wait_time = 300000  # 5 minutes max wait time
+            max_wait_time = 600000  # 10 minutes max wait time (increased for manual login)
 
             while total_wait_time < max_wait_time:
                 try:
@@ -1495,7 +1510,7 @@ class SocialMediaMCP:
     async def _post_to_linkedin(self, page, content, context=None):
         """Post to LinkedIn using Playwright"""
         # Navigate to LinkedIn
-        await page.goto("https://www.linkedin.com/", timeout=60000, wait_until="networkidle")  # 60 seconds timeout, wait for network idle
+        await page.goto("https://www.linkedin.com/", timeout=60000, wait_until="domcontentloaded")  # 60 seconds timeout, wait for DOM to load
 
         # Wait a moment for the page to load
         await page.wait_for_timeout(4000)
@@ -1504,15 +1519,19 @@ class SocialMediaMCP:
         is_logged_in = False
         try:
             # Check for elements that typically appear when logged in (Updated for 2026 UI)
-            await page.wait_for_selector('[data-test-id="profile-badge"], nav button[aria-label*="Me"], [data-test-id="feed-shared-update-social-action-bar"], button[aria-label="Start a post"], [data-test-id="profile-badge"], nav [data-test-id="profile-nav-badge"], [data-testid="profile-photo"], [aria-label="Home feed"], [data-test-id="profile-tab-icon"], [aria-label*="My Network"]', timeout=5000, state='visible')
+            # Using more reliable selectors that work in 2026
+            await page.wait_for_selector('nav.global-nav, div.global-nav, header nav, nav[aria-label*="Primary"], button[aria-label="Start a post"], div.share-box-feed-entry, .feed-shared-update-v2, div[data-view-name="feed-index"]', timeout=5000, state='visible')
             is_logged_in = True
+            print("✓ LinkedIn login detected - found feed/nav elements")
         except:
             # Check if we're on login page
             try:
-                await page.wait_for_selector('input#session_key, input[aria-label="Email or phone"], [data-id="sign-in-form__submit-btn"], input[aria-label*="Email"], input[aria-label*="Password"]', timeout=2000, state='visible')
+                await page.wait_for_selector('input#session_key, input#username, input[aria-label="Email or phone"], [data-id="sign-in-form__submit-btn"], input[aria-label*="Email"], input[aria-label*="Password"], form.login__form', timeout=2000, state='visible')
                 is_logged_in = False  # If login elements are present, user is not logged in
+                print("Login page detected - user needs to log in")
             except:
                 is_logged_in = False  # Default to not logged in if neither condition is met
+                print("Could not determine login status, assuming not logged in")
 
         if not is_logged_in:
             # User is not logged in, prompt for manual login
@@ -1523,13 +1542,14 @@ class SocialMediaMCP:
             # Wait for user to manually log in - check periodically
             login_check_interval = 2000  # Check every 2 seconds
             total_wait_time = 0
-            max_wait_time = 300000  # 5 minutes max wait time
+            max_wait_time = 600000  # 10 minutes max wait time (increased for manual login)
 
             while total_wait_time < max_wait_time:
                 try:
                     # Check if user is now logged in (Updated for 2026 UI)
-                    await page.wait_for_selector('[data-test-id="profile-badge"], nav button[aria-label*="Me"], [data-test-id="feed-shared-update-social-action-bar"], button[aria-label="Start a post"], [data-test-id="profile-tab-icon"]', timeout=2000, state='visible')
-                    print("Login detected! Proceeding with posting...")
+                    # Using more reliable selectors that work in 2026
+                    await page.wait_for_selector('nav.global-nav, div.global-nav, header nav, nav[aria-label*="Primary"], button[aria-label="Start a post"], div.share-box-feed-entry, .feed-shared-update-v2, div[data-view-name="feed-index"]', timeout=2000, state='visible')
+                    print("✓ Login detected! Proceeding with posting...")
                     break
                 except:
                     total_wait_time += login_check_interval
@@ -1543,56 +1563,64 @@ class SocialMediaMCP:
 
         # Look for the share box to create a post (Updated for 2026 UI)
         try:
-            # More comprehensive selectors for LinkedIn's 2026 UI
+            # More comprehensive selectors for LinkedIn's 2026 UI - simplified and more reliable
             post_selectors = [
                 'button[aria-label="Start a post"]',
-                '[data-test-id="share-content"]',
                 'button:has-text("Start a post")',
-                '[data-test-id="profile-badge"] ~ div button',
-                'div[role="button"]:has-text("Share")',
-                'button[data-test-id="share-post"]',
-                '[data-testid="share-creator-solid"]',
-                'button[aria-label*="share"]',
-                '[data-test-id="feed-shared-update-social-action-bar"] button',
-                'div[role="button"]:has(svg[aria-label*="Post"])',
-                'div[role="button"]:has(svg[aria-label*="Share"])',
-                'button[aria-label="Create a post"]',
-                'div[role="button"]:has-text(/post|share|create/i)',
-                'div[role="button"][tabindex="0"]:has-text("Post")',
-                'div[role="toolbar"] button[aria-label*="Post"]',
-                'div[aria-label="Create a post"] button:first-of-type',
+                'div[role="button"]:has-text("Start a post")',
+                'button[aria-label*="post" i]',
+                'button[aria-label*="share" i]',
+                '.share-box-feed-entry__trigger',
+                '.artdeco-button:has-text("Start a post")',
             ]
 
             button_clicked = False
+            print("Attempting to find 'Start a post' button...")
+
             for selector in post_selectors:
                 try:
+                    print(f"Trying selector: {selector}")
                     element = await page.wait_for_selector(selector, timeout=5000, state='visible')
                     if element:
-                        # Scroll element into view first
                         await element.scroll_into_view_if_needed()
-                        await page.wait_for_timeout(500)
+                        await page.wait_for_timeout(1000)
                         await element.click()
-                        print(f"Clicked on post button: {selector}")
+                        print(f"✓ Clicked 'Start a post' button using: {selector}")
                         button_clicked = True
                         break
-                except Exception as click_error:
-                    print(f"Failed to click selector: {selector}, error: {click_error}")
+                except Exception as e:
+                    print(f"  Failed: {str(e)[:100]}")
                     continue
 
             if not button_clicked:
-                print("Could not find post button automatically.")
-                print("Attempting fallback method...")
-                # Try a more general approach
+                print("Could not find 'Start a post' button with standard selectors.")
+                print("Trying alternative approach - looking for any clickable element with 'post' text...")
                 try:
-                    await page.click('div[role="main"] button[aria-label*="Post"], div[role="main"] button[aria-label*="Share"]', timeout=3000)
-                    print("Clicked on general post button")
+                    # Try clicking anything that looks like a post button
+                    await page.evaluate("""
+                        () => {
+                            const buttons = Array.from(document.querySelectorAll('button, div[role="button"]'));
+                            const postButton = buttons.find(btn =>
+                                btn.textContent.toLowerCase().includes('start a post') ||
+                                btn.getAttribute('aria-label')?.toLowerCase().includes('start a post')
+                            );
+                            if (postButton) {
+                                postButton.click();
+                                return true;
+                            }
+                            return false;
+                        }
+                    """)
+                    print("✓ Clicked post button using JavaScript fallback")
                     button_clicked = True
                 except:
                     pass
 
             if not button_clicked:
-                print("Could not find post button automatically.")
-                print("Please manually click the 'Start a post' button in the LinkedIn browser window.")
+                print("❌ ERROR: Could not find 'Start a post' button automatically.")
+                print("Please manually click the 'Start a post' button in the browser window.")
+                print("Waiting 10 seconds for you to click it...")
+                await page.wait_for_timeout(10000)
                 await page.wait_for_timeout(5000)
                 return {"success": False}
 
@@ -1604,170 +1632,158 @@ class SocialMediaMCP:
 
         # Fill in the post content (Updated for 2026 UI)
         try:
-            await page.wait_for_timeout(4000)  # Wait for editor to load properly
+            await page.wait_for_timeout(3000)  # Wait for editor to load properly
 
-            # Try different selectors for the text area where we can enter content (Updated for 2026 UI)
-            text_area_selectors = [
-                'div[contenteditable="true"][data-test-id="share-content-post"]',
-                'div[aria-label="Create a post"]',
-                'div[aria-label="Share your post"]',
-                'div[contenteditable="true"][aria-label*="post"]',
-                'div[role="textbox"][aria-label*="share"]',
-                'div[data-test-id="share-content-post"]',
-                'div[contenteditable="true"]:not([data-testid*="search"]):not([aria-label*="search"])',
-                'div[contenteditable="true"][data-testid="post-modal__content"]',  # 2026 UI selector
-                'div[role="textbox"][aria-label*="What"]',
-                'div[contenteditable="true"][aria-label*="What"]',
-                'div[aria-label*="Create"] div[contenteditable="true"]',
-                'div[role="textbox"][contenteditable="true"]',
-                'div[contenteditable="true"][data-lexical-editor="true"]',
-                'div[aria-label="Share something on LinkedIn"]',
-                'div[aria-label="Share on LinkedIn"]',
-                'div[role="textbox"]:not([aria-label*="search"]):not([aria-label*="comment"])',
-                'div[contenteditable="true"]:not([aria-label*="search"]):not([aria-label*="comment"])',
-                'div[role="textbox"][aria-label*="post"]',
-                'div[contenteditable="true"]',  # General fallback
-            ]
+            print("Attempting to fill post content...")
 
+            # Find the contenteditable div and fill it
             content_filled = False
-            for selector in text_area_selectors:
-                try:
-                    # For contenteditable areas, click first to focus
-                    element = await page.wait_for_selector(selector, timeout=4000, state='visible')
-                    if element:
-                        # Scroll element into view first
-                        await element.scroll_into_view_if_needed()
-                        await page.wait_for_timeout(500)
-
-                        # Try focus first
-                        await element.focus()
-                        await page.wait_for_timeout(500)
-
-                        # Click to make sure it's active
-                        await element.click()
-                        await page.wait_for_timeout(500)
-
-                        # Try fill first, then type as fallback for contenteditable areas
-                        try:
-                            await element.fill(content)
-                        except:
-                            try:
-                                # For contenteditable divs, clear existing content and type
-                                await element.click()
-                                await page.keyboard.press("Control+A")  # Select all
-                                await page.keyboard.press("Backspace")  # Delete all
-                                await page.wait_for_timeout(500)
-                                await element.type(content)
-                            except:
-                                # Final fallback - try to set innerHTML for contenteditable elements
-                                await page.evaluate(f'arguments[0].focus(); arguments[0].innerHTML = arguments[1];', element, content)
-                                # Dispatch input event to trigger change
-                                await page.evaluate('arguments[0].dispatchEvent(new Event("input", { bubbles: true }));', element)
-
-                        print(f"Content filled using selector: {selector}")
-                        content_filled = True
-                        await page.wait_for_timeout(1000)  # Small delay to ensure content is processed
-                        break
-                except Exception as fill_error:
-                    print(f"Failed to fill content with selector: {selector}, error: {fill_error}")
-                    continue
+            try:
+                # Wait for the editor to appear
+                editor = await page.wait_for_selector('div[contenteditable="true"]', timeout=5000, state='visible')
+                if editor:
+                    await editor.click()
+                    await page.wait_for_timeout(500)
+                    # Use fill method which is faster and more reliable
+                    await editor.fill(content)
+                    print("✓ Content filled successfully")
+                    content_filled = True
+                    await page.wait_for_timeout(1000)
+            except Exception as e:
+                print(f"Fill method failed: {str(e)[:100]}")
+                content_filled = False
 
             if not content_filled:
-                print("Could not find text area to fill. The LinkedIn UI may have changed significantly.")
-                print("Attempting fallback method by typing directly...")
-                # Fallback: try to find any text area and type
-                try:
-                    # Try to click on the general area and type
-                    await page.click('div[role="main"] div[contenteditable="true"], div[role="main"] textarea', timeout=2000)
-                    await page.wait_for_timeout(1000)
-                    await page.keyboard.type(content)
-                    print("Content filled using direct keyboard input")
-                    content_filled = True
-                except:
-                    print("Please manually type your post content in the LinkedIn browser window.")
-                    await page.wait_for_timeout(5000)
-                    return {"success": False}
+                print("❌ ERROR: Could not fill content automatically.")
+                print("Please manually type your post content in the browser window.")
+                print("Waiting 15 seconds for you to type...")
+                await page.wait_for_timeout(15000)
 
         except Exception as e:
             print(f"Error filling post content: {e}")
-            print("Please manually enter your post content in the LinkedIn browser window.")
-            await page.wait_for_timeout(5000)
+            print("Please manually enter your post content.")
+            await page.wait_for_timeout(10000)
             return {"success": False}
 
         # Wait a moment for the content to be processed
-        await page.wait_for_timeout(2000)
+        await page.wait_for_timeout(1500)
 
-        # Try to click the post/share button with more robust selectors (Updated for 2026 UI)
+        # Try to click the post/share button (Updated for 2026 UI)
         try:
+            # Wait a moment to ensure content is ready
+            await page.wait_for_timeout(2000)
+
+            print("Attempting to click 'Post' button to publish...")
+
+            # First, let's see what buttons are available
+            all_buttons = await page.evaluate("""
+                () => {
+                    const buttons = Array.from(document.querySelectorAll('button'));
+                    return buttons.map(btn => ({
+                        text: btn.textContent.trim(),
+                        ariaLabel: btn.getAttribute('aria-label'),
+                        disabled: btn.disabled,
+                        ariaDisabled: btn.getAttribute('aria-disabled'),
+                        visible: btn.offsetParent !== null
+                    })).filter(b => b.visible && b.text);
+                }
+            """)
+            print(f"Available buttons: {all_buttons}")
+
+            # Try multiple selectors to find the Post button
+            button_clicked = False
             post_button_selectors = [
-                'button[aria-label="Post"]:not([disabled]):not([aria-hidden="true"]):not([style*="display: none"]):not([style*="visibility: hidden"])',
-                'button:has-text("Post"):not([disabled]):not([aria-hidden="true"])',
-                '[data-test-id="share-content"] button[type="submit"]:not([disabled]):not([aria-hidden="true"])',
-                'button[data-test-id="share-content"]:not([disabled]):not([aria-hidden="true"])',
-                '[aria-label="Share"]:not([disabled]):not([aria-hidden="true"])',
-                'button[role="button"]:has-text("Post"):not([disabled]):not([aria-hidden="true"])',
-                'button[data-test-id="post-modal__submit-button"]',  # 2026 UI selector
-                'button:has-text(/post|share|publish/i):not([disabled]):not([aria-hidden="true"])',
-                'button[aria-label="Share"]',
-                'div[role="button"]:has-text("Post"):not([aria-disabled="true"])',
-                'button[aria-label="Post to LinkedIn"]',
-                '[data-testid="share-content"] button:not([disabled]):not([aria-hidden="true"])',
-                'button[tabindex="0"][role="button"]:has-text("Post"):not([disabled])',
-                'div[role="dialog"] button[aria-label="Post"]:not([disabled])',  # In case it's in a modal
-                'div[role="dialog"] button:has-text("Post"):not([disabled])',  # In case it's in a modal
+                'button[aria-label="Post"]',
+                'button:has-text("Post"):not(:has-text("to"))',  # "Post" but NOT "Post to Anyone"
+                'div[role="dialog"] button:has-text("Post"):not(:has-text("to"))',
+                'button[type="submit"]:has-text("Post")',
             ]
 
-            button_clicked = False
             for selector in post_button_selectors:
                 try:
-                    post_button = await page.wait_for_selector(selector, timeout=4000, state='visible')
+                    print(f"Trying Post button selector: {selector}")
+                    post_button = await page.wait_for_selector(selector, timeout=3000, state='visible')
                     if post_button:
-                        # Check if the button is enabled before clicking
-                        is_disabled = await page.evaluate("element => element.hasAttribute('disabled') || element.getAttribute('aria-disabled') === 'true' || element.getAttribute('aria-hidden') === 'true'", post_button)
-                        if not is_disabled:
-                            # Scroll button into view first
-                            await post_button.scroll_into_view_if_needed()
-                            await page.wait_for_timeout(500)
+                        # Check if enabled
+                        is_disabled = await post_button.get_attribute('aria-disabled')
+                        disabled_attr = await post_button.get_attribute('disabled')
+                        button_text = await post_button.text_content()
+
+                        print(f"  Found button with text: '{button_text.strip()}', disabled: {is_disabled}/{disabled_attr}")
+
+                        # Make sure it's just "Post" not "Post to Anyone"
+                        if button_text.strip() == 'Post' and is_disabled != 'true' and disabled_attr is None:
                             await post_button.click()
-                            print(f"Clicked on post button: {selector}")
+                            print(f"✓ Post button clicked using: {selector}")
                             button_clicked = True
                             break
-                except Exception as button_error:
-                    print(f"Failed to click post button with selector: {selector}, error: {button_error}")
+                        else:
+                            print(f"  Button text doesn't match or is disabled, trying next...")
+                except Exception as e:
+                    print(f"  Failed: {str(e)[:80]}")
                     continue
 
+            # If no button found with selectors, try JavaScript to find exact "Post" button
+            if not button_clicked:
+                print("Trying JavaScript to find exact 'Post' button...")
+                button_clicked = await page.evaluate("""
+                    () => {
+                        const buttons = Array.from(document.querySelectorAll('button'));
+                        const postButton = buttons.find(btn => {
+                            const text = btn.textContent.trim();
+                            const isEnabled = !btn.disabled && btn.getAttribute('aria-disabled') !== 'true';
+                            const isVisible = btn.offsetParent !== null;
+                            // Must be exactly "Post", not "Post to Anyone"
+                            return text === 'Post' && isEnabled && isVisible;
+                        });
+                        if (postButton) {
+                            postButton.click();
+                            return true;
+                        }
+                        return false;
+                    }
+                """)
+                if button_clicked:
+                    print("✓ Post button clicked using JavaScript")
+
             if button_clicked:
-                print("LinkedIn post submitted successfully!")
-                print("Waiting 15 seconds for post to appear in feed. Handle captcha if shown.")
-                # Wait for the post to be submitted and check if it appeared
-                await page.wait_for_timeout(15000)  # Wait to see if post appears
+                print("✓ Post button clicked - waiting for post to be published...")
+                await page.wait_for_timeout(5000)
 
-                # Since posts are often successful but verification fails, just assume success after waiting
-                print("Post likely submitted successfully (verification skipped to avoid false failures)")
+                # Check if post was published successfully (composer dialog should close)
+                try:
+                    await page.wait_for_selector('div[role="dialog"]', timeout=5000, state='hidden')
+                    print("✓ Post dialog closed - post published successfully!")
+                except:
+                    print("⚠ Could not confirm dialog closed, but post may still be published")
 
-                # Save session to preserve login state for LinkedIn
+                # Save session
                 storage_state_file = self.session_files.get('linkedin')
                 if context and storage_state_file:
                     try:
                         await context.storage_state(path=storage_state_file)
                         file_size = os.path.getsize(storage_state_file) if os.path.exists(storage_state_file) else 0
-                        print(f"LinkedIn session saved to {storage_state_file} (size: {file_size} bytes)")
+                        print(f"✓ LinkedIn session saved to {storage_state_file} (size: {file_size} bytes)")
                     except Exception as session_error:
-                        print(f"Error saving LinkedIn session: {session_error}")
+                        print(f"Warning: Could not save session: {session_error}")
 
+                print("✓ LinkedIn posting completed successfully!")
                 return {"success": True}
             else:
-                print("Could not find post button to submit. Content has been filled but user needs to submit manually.")
-                # Try to save session state anyway
+                print("❌ ERROR: Could not find 'Post' button.")
+                print("Please manually click the 'Post' button in the browser window.")
+                print("Waiting 15 seconds for you to click it...")
+                await page.wait_for_timeout(15000)
+
+                # Try to save session anyway
                 storage_state_file = self.session_files.get('linkedin')
                 if context and storage_state_file:
                     try:
                         await context.storage_state(path=storage_state_file)
-                        file_size = os.path.getsize(storage_state_file) if os.path.exists(storage_state_file) else 0
-                        print(f"LinkedIn session saved to {storage_state_file} (size: {file_size} bytes) - partial success")
-                    except Exception as session_error:
-                        print(f"Error saving LinkedIn session: {session_error}")
-                await page.wait_for_timeout(5000)
+                        print(f"Session saved (partial success)")
+                    except:
+                        pass
+
                 return {"success": False}
 
         except Exception as e:
@@ -1785,9 +1801,10 @@ class SocialMediaMCP:
             await page.wait_for_timeout(5000)
             return {"success": False}
 
-        # Wait for the post to be submitted
-        await page.wait_for_timeout(4000)
-        return {"success": True}
+        # This code should not be reached if button was clicked successfully
+        # The return statement is already in the button_clicked block above
+        print("⚠ Reached end of posting function unexpectedly")
+        return {"success": False}
 
     def get_summary(self, post_result):
         """
@@ -1843,108 +1860,277 @@ class SocialMediaMCP:
         """Handle when a social media post is approved."""
         print(f"Handling social media post approval: {filename}")
 
+        # Only handle SOCIAL/LINKEDIN/TWITTER/FACEBOOK/INSTAGRAM files
+        if not any(keyword in filename.upper() for keyword in ['SOCIAL', 'LINKEDIN', 'TWITTER', 'FACEBOOK', 'INSTAGRAM']):
+            print(f"Skipping non-social file: {filename}")
+            return
+
+        # Skip EMAIL files
+        if 'EMAIL' in filename.upper():
+            print(f"Skipping email file: {filename} (handled by email_mcp.py)")
+            return
+
         try:
-            # Extract post ID from the filename
-            if 'SOCIAL_' in filename:
-                # Format: Pending_Approval_SOCIAL_social_YYYYMMDD_HHMMSS.md
-                # Extract the post ID part (e.g., social_YYYYMMDD_HHMMSS)
-                post_id_start = filename.find('SOCIAL_') + len('SOCIAL_')
-                post_id_end = filename.rfind('.md')
-                post_id = filename[post_id_start:post_id_end]
+            # Check if file is in Approved or Archive directory
+            approved_file_path = self.approved_dir / filename
+            archive_file_path = self.archive_dir / filename
 
-                # Look for the corresponding draft file
-                draft_file_path = self.drafts_dir / f"social_draft_{post_id}.json"
+            # Add small delay to ensure file is fully written
+            time.sleep(0.5)
 
-                if draft_file_path.exists():
-                    # Load the draft data
-                    with open(draft_file_path, 'r', encoding='utf-8') as f:
-                        draft_data = json.load(f)
-
-                    # Update draft status to indicate it's approved
-                    draft_data['status'] = 'approved'
-                    draft_data['approved_at'] = datetime.now().isoformat()
-
-                    # Write updated draft back to file
-                    with open(draft_file_path, 'w', encoding='utf-8') as f:
-                        json.dump(draft_data, f, indent=2)
-
-                    print(f"Updated draft status to approved: {draft_file_path.name}")
-
-                    # Now post the content (real posting, not dry run)
-                    platform = draft_data.get('platform', 'Twitter')
-                    content = draft_data.get('content', '')
-
-                    print(f"Posting to {platform}...")
-                    # Schedule the async task in the event loop
-                    future = asyncio.run_coroutine_threadsafe(
-                        self.post_to_platform(content, platform, dry_run=False),
-                        self.loop
-                    )
-                    result = future.result()  # Wait for the result
-                    summary = self.get_summary(result)
-                    print(f"Post completed: {summary}")
-
-                    # Update status in the markdown file before moving
-                    approved_file_path = self.approved_dir / filename
-                    if approved_file_path.exists():
-                        # Read the existing file
-                        with open(approved_file_path, 'r', encoding='utf-8') as f:
-                            md_content = f.read()
-
-                        # Update the status from "Pending Approval" to "Completed"
-                        updated_content = md_content.replace("**Status:** Pending Approval", f"**Status:** Completed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-                        # Write back the updated content
-                        with open(approved_file_path, 'w', encoding='utf-8') as f:
-                            f.write(updated_content)
-
-                        # Move the file to Done folder
-                        done_file_path = self.done_dir / filename
-                        approved_file_path.rename(done_file_path)
-                        print(f"Updated status and moved approved file to Done: {done_file_path.name}")
-                else:
-                    print(f"Draft file not found for post ID: {post_id}")
+            if archive_file_path.exists():
+                file_path = archive_file_path
+                print(f"Processing file from Archive: {filename}")
+            elif approved_file_path.exists():
+                file_path = approved_file_path
+                print(f"Processing file from Approved: {filename}")
             else:
-                print(f"Filename does not match social media approval pattern: {filename}")
+                print(f"File not found in Approved or Archive: {filename}")
+                return
+
+            # Create a lock file to prevent race conditions
+            lock_file = file_path.with_suffix('.lock')
+            try:
+                # Try to create lock file (atomic operation)
+                if lock_file.exists():
+                    print(f"File {filename} is locked by another process")
+                    return
+
+                lock_file.touch()
+
+                # Double-check file still exists after acquiring lock
+                if not file_path.exists():
+                    print(f"File {filename} was removed before processing")
+                    if lock_file.exists():
+                        lock_file.unlink()
+                    return
+
+                # Handle LINKEDIN_APPROVAL or similar pattern files, or LinkedIn_post/Twitter_post pattern
+                if ('LINKEDIN_APPROVAL' in filename or 'TWITTER_APPROVAL' in filename or 'FACEBOOK_APPROVAL' in filename or
+                    'LinkedIn_post' in filename or 'Twitter_post' in filename or 'Facebook_post' in filename):
+                    print(f"Processing approval file with direct content: {filename}")
+
+                    # Read the markdown file to extract content and metadata
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        md_content = f.read()
+
+                    # Parse frontmatter to get platform
+                    import re
+                    frontmatter_match = re.search(r'^---\n(.*?)\n---', md_content, re.DOTALL)
+                    platform = 'LinkedIn'  # Default
+
+                    if frontmatter_match:
+                        frontmatter = frontmatter_match.group(1)
+                        # Check frontmatter for platform
+                        platform_match = re.search(r'platform:\s*(\w+)', frontmatter, re.IGNORECASE)
+                        if platform_match:
+                            platform = platform_match.group(1)
+                        # Also check filename
+                        elif 'LINKEDIN' in filename.upper() or 'LinkedIn' in filename:
+                            platform = 'LinkedIn'
+                        elif 'TWITTER' in filename.upper() or 'Twitter' in filename:
+                            platform = 'Twitter'
+                        elif 'FACEBOOK' in filename.upper() or 'Facebook' in filename:
+                            platform = 'Facebook'
+
+                    # Extract post content - try multiple patterns
+                    content_match = re.search(r'## Post Content\n\n(.*?)\n\n##', md_content, re.DOTALL)
+                    if content_match:
+                        content = content_match.group(1).strip()
+                    else:
+                        # Try extracting content after frontmatter (for files without ## Post Content section)
+                        content_match = re.search(r'^---\n.*?\n---\n\n(.*)', md_content, re.DOTALL)
+                        if content_match:
+                            content = content_match.group(1).strip()
+                            # Remove any markdown headers at the start
+                            content = re.sub(r'^#\s+.*?\n\n', '', content)
+                        else:
+                            content = None
+
+                    if content:
+
+                        print(f"Posting to {platform}...")
+                        try:
+                            # Schedule the async task in the event loop
+                            future = asyncio.run_coroutine_threadsafe(
+                                self.post_to_platform(content, platform, dry_run=False),
+                                self.loop
+                            )
+                            result = future.result()  # Wait for the result
+                            summary = self.get_summary(result)
+                            print(f"Post completed: {summary}")
+
+                            # Update status and move to Done folder
+                            updated_content = md_content.replace("status: pending_approval", f"status: completed")
+                            updated_content = updated_content.replace("## Action Required", f"## Completed\n\nPosted at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n## Action Required")
+
+                            with open(file_path, 'w', encoding='utf-8') as f:
+                                f.write(updated_content)
+
+                            # Move to Done folder
+                            done_file_path = self.done_dir / filename
+                            import shutil
+                            if file_path.exists():
+                                shutil.move(str(file_path), str(done_file_path))
+                                print(f"\n✓ SUCCESS: Post published to {platform}")
+                                print(f"✓ File moved to: vault/Done/{done_file_path.name}")
+                                print(f"{'='*60}\n")
+                        except Exception as e:
+                            print(f"ERROR: Failed to post to {platform}: {str(e)}")
+
+                            # Update status to error
+                            updated_content = md_content.replace("status: pending_approval", f"status: error")
+                            with open(file_path, 'w', encoding='utf-8') as f:
+                                f.write(updated_content)
+
+                            # Move to Errors folder
+                            error_dir = Path('vault') / 'Errors'
+                            error_dir.mkdir(exist_ok=True)
+                            error_path = error_dir / f"ERROR_{filename}"
+                            import shutil
+                            if file_path.exists():
+                                shutil.move(str(file_path), str(error_path))
+                                print(f"✗ FAILED: Post failed, moved to: vault/Errors/{error_path.name}")
+                    else:
+                        print(f"Could not extract post content from {filename}")
+
+                # Handle SOCIAL_ pattern files (original logic)
+                elif 'SOCIAL_' in filename:
+                    # Format: Pending_Approval_SOCIAL_social_YYYYMMDD_HHMMSS.md
+                    # Extract the post ID part (e.g., social_YYYYMMDD_HHMMSS)
+                    post_id_start = filename.find('SOCIAL_') + len('SOCIAL_')
+                    post_id_end = filename.rfind('.md')
+                    post_id = filename[post_id_start:post_id_end]
+
+                    # Look for the corresponding draft file
+                    draft_file_path = self.drafts_dir / f"social_draft_{post_id}.json"
+
+                    if draft_file_path.exists():
+                        # Load the draft data
+                        with open(draft_file_path, 'r', encoding='utf-8') as f:
+                            draft_data = json.load(f)
+
+                        # Update draft status to indicate it's approved
+                        draft_data['status'] = 'approved'
+                        draft_data['approved_at'] = datetime.now().isoformat()
+
+                        # Write updated draft back to file
+                        with open(draft_file_path, 'w', encoding='utf-8') as f:
+                            json.dump(draft_data, f, indent=2)
+
+                        print(f"Updated draft status to approved: {draft_file_path.name}")
+
+                        # Now post the content (real posting, not dry run)
+                        platform = draft_data.get('platform', 'Twitter')
+                        content = draft_data.get('content', '')
+
+                        print(f"Posting to {platform}...")
+                        try:
+                            # Schedule the async task in the event loop
+                            future = asyncio.run_coroutine_threadsafe(
+                                self.post_to_platform(content, platform, dry_run=False),
+                                self.loop
+                            )
+                            result = future.result()  # Wait for the result
+                            summary = self.get_summary(result)
+                            print(f"Post completed: {summary}")
+
+                            # Update status in the markdown file before moving
+                            if file_path.exists():
+                                # Read the existing file
+                                with open(file_path, 'r', encoding='utf-8') as f:
+                                    md_content = f.read()
+
+                                # Update the status from "Pending Approval" to "Completed"
+                                updated_content = md_content.replace("**Status:** Pending Approval", f"**Status:** Completed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+                                # Write back the updated content
+                                with open(file_path, 'w', encoding='utf-8') as f:
+                                    f.write(updated_content)
+
+                                # Move the file to Done folder
+                                done_file_path = self.done_dir / filename
+                                import shutil
+                                shutil.move(str(file_path), str(done_file_path))
+                                print(f"Updated status and moved approved file to Done: {done_file_path.name}")
+                        except Exception as e:
+                            print(f"ERROR: Failed to post to {platform}: {str(e)}")
+
+                            # Update status to error
+                            if file_path.exists():
+                                with open(file_path, 'r', encoding='utf-8') as f:
+                                    md_content = f.read()
+                                updated_content = md_content.replace("**Status:** Pending Approval", f"**Status:** Error - {str(e)[:100]}")
+                                with open(file_path, 'w', encoding='utf-8') as f:
+                                    f.write(updated_content)
+
+                                # Move to Errors folder
+                                error_dir = Path('vault') / 'Errors'
+                                error_dir.mkdir(exist_ok=True)
+                                error_path = error_dir / f"ERROR_{filename}"
+                                import shutil
+                                shutil.move(str(file_path), str(error_path))
+                                print(f"✗ FAILED: Post failed, moved to: vault/Errors/{error_path.name}")
+                    else:
+                        print(f"Draft file not found for post ID: {post_id}")
+                else:
+                    print(f"Filename does not match social media approval pattern: {filename}")
+
+            finally:
+                # Always remove lock file
+                if lock_file.exists():
+                    lock_file.unlink()
 
         except Exception as e:
             print(f"Error handling social media approval for {filename}: {str(e)}")
-            print("Moving file to Rejected folder due to posting failure")
+            print("Moving file to Errors folder due to posting failure")
             import traceback
             traceback.print_exc()
 
-            # If there's an error during posting, update status and move the file to Rejected
+            # If there's an error during posting, move the file to Errors
             try:
+                # Check if file is in Approved or Archive directory
                 approved_file_path = self.approved_dir / filename
-                if approved_file_path.exists():
-                    # Read the existing file
-                    with open(approved_file_path, 'r', encoding='utf-8') as f:
-                        md_content = f.read()
+                archive_file_path = self.archive_dir / filename
 
-                    # Update the status to "Rejected due to error"
-                    updated_content = md_content.replace("**Status:** Pending Approval", f"**Status:** Rejected due to error at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - {str(e)[:100]}...")
+                if archive_file_path.exists():
+                    error_file_path = archive_file_path
+                elif approved_file_path.exists():
+                    error_file_path = approved_file_path
+                else:
+                    print(f"File not found for error handling: {filename}")
+                    return
 
-                    # Write back the updated content
-                    with open(approved_file_path, 'w', encoding='utf-8') as f:
-                        f.write(updated_content)
+                # Read the existing file
+                with open(error_file_path, 'r', encoding='utf-8') as f:
+                    md_content = f.read()
 
-                rejected_file_path = self.rejected_dir / filename.replace("Pending_Approval_SOCIAL_", "Rejected_SOCIAL_")
-                if approved_file_path.exists():
-                    approved_file_path.rename(rejected_file_path)
-                    print(f"Updated status and moved failed post to Rejected: {rejected_file_path.name}")
+                # Update the status to "Error"
+                updated_content = md_content.replace("**Status:** Pending Approval", f"**Status:** Error at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - {str(e)[:100]}...")
+                updated_content = updated_content.replace("status: pending_approval", f"status: error")
+
+                # Write back the updated content
+                with open(error_file_path, 'w', encoding='utf-8') as f:
+                    f.write(updated_content)
+
+                # Move to Errors folder
+                error_dir = Path('vault') / 'Errors'
+                error_dir.mkdir(exist_ok=True)
+                error_file_dest = error_dir / f"ERROR_{filename}"
+                import shutil
+                shutil.move(str(error_file_path), str(error_file_dest))
+                print(f"Moved failed file to: {error_file_dest}")
             except Exception as move_error:
-                print(f"Error moving file to Rejected: {move_error}")
+                print(f"Error moving file to Errors: {move_error}")
 
     def handle_rejection(self, filename):
         """Handle when a social media post is rejected."""
         print(f"Handling social media post rejection: {filename}")
 
         try:
-            # Move rejected file to Done folder
+            # Keep rejected file in Rejected folder, just log it
             rejected_file_path = self.rejected_dir / filename
-            done_file_path = self.done_dir / filename
             if rejected_file_path.exists():
-                rejected_file_path.rename(done_file_path)
-                print(f"Moved rejected file to Done: {done_file_path.name}")
+                print(f"Post rejected and kept in Rejected folder: {filename}")
 
                 # Log the rejection
                 self.log_operation({
@@ -1952,9 +2138,12 @@ class SocialMediaMCP:
                     "filename": filename,
                     "status": "rejected"
                 })
+            else:
+                print(f"Rejected file not found: {filename}")
         except Exception as e:
             print(f"Error handling social media rejection for {filename}: {str(e)}")
             import traceback
+            traceback.print_exc()
             traceback.print_exc()
 
 

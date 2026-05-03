@@ -734,5 +734,5381 @@
       "operation": "connect",
       "timestamp": "2026-03-24T11:38:07.182071"
     }
+  },
+  {
+    "timestamp": "2026-03-24T13:00:59.331825",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-24T13:00:59.330909"
+    }
+  },
+  {
+    "timestamp": "2026-03-24T13:01:00.684264",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-24T13:01:00.683652"
+    }
+  },
+  {
+    "timestamp": "2026-03-24T13:01:05.845864",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-24T13:01:05.844921"
+    }
+  },
+  {
+    "timestamp": "2026-03-24T13:01:12.260136",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-24T13:01:12.258989"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T08:03:47.694256",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T08:03:47.693343"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T08:03:49.188609",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T08:03:49.186204"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T08:03:52.401792",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T08:03:52.400999"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T08:03:57.391487",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T08:03:57.390660"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:01:14.880957",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:01:14.880357"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:01:21.823765",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:01:21.822894"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:01:29.819041",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:01:29.817810"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:01:35.862743",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:01:35.861783"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:15:54.760653",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:15:54.760047"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:16:01.754311",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:16:01.752337"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:16:09.741867",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:16:09.741002"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:16:19.744059",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:16:19.742786"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:19:36.046886",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:19:36.046037"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:19:37.532603",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:19:37.531755"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:19:45.722022",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:19:45.721194"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:19:50.806965",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:19:50.806123"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:25:42.692069",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:25:42.690808"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:25:49.691703",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:25:49.690790"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:25:57.722249",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:25:57.721390"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:26:08.800450",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:26:08.799599"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:45:42.588724",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:45:42.586206"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:45:43.996941",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:45:43.996321"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:45:46.650723",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:45:46.650139"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:45:56.612276",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T10:45:56.611220"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T11:27:03.354443",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T11:27:03.353769"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T11:27:07.247635",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T11:27:07.246992"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T11:27:15.392210",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T11:27:15.391437"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T11:27:21.393999",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T11:27:21.393226"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T11:45:24.314807",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T11:45:24.314011"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T11:45:31.278700",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T11:45:31.277725"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T11:45:34.001660",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T11:45:34.000795"
+    }
+  },
+  {
+    "timestamp": "2026-03-31T11:45:44.276971",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-03-31T11:45:44.276113"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T09:57:22.966332",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T09:57:22.965675"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T09:57:24.251105",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T09:57:24.250192"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T09:57:26.905109",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T09:57:26.904497"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T09:57:37.722227",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T09:57:37.721339"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:10:02.787383",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:10:02.786670"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:10:04.072874",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:10:04.072025"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:10:12.660283",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:10:12.659713"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:10:22.659445",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:10:22.658794"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:31:25.538573",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:31:25.537328"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:31:27.296366",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:31:27.295661"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:31:29.904229",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:31:29.903571"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:31:40.562126",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:31:40.561181"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:38:37.983967",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:38:37.983059"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:38:39.228575",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:38:39.227785"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:38:42.634742",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:38:42.634155"
+    }
+  },
+  {
+    "timestamp": "2026-04-01T10:38:59.027794",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-01T10:38:59.026823"
+    }
+  },
+  {
+    "timestamp": "2026-04-02T10:41:47.885173",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-02T10:41:47.883318"
+    }
+  },
+  {
+    "timestamp": "2026-04-02T10:41:52.132331",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-02T10:41:52.131106"
+    }
+  },
+  {
+    "timestamp": "2026-04-02T10:41:55.676525",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-02T10:41:55.675912"
+    }
+  },
+  {
+    "timestamp": "2026-04-02T10:42:01.681299",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-02T10:42:01.680326"
+    }
+  },
+  {
+    "timestamp": "2026-04-02T11:01:13.886860",
+    "error_details": {
+      "error": "<urlopen error [Errno 11002] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-02T11:01:13.886243"
+    }
+  },
+  {
+    "timestamp": "2026-04-02T11:01:15.304275",
+    "error_details": {
+      "error": "<urlopen error [Errno 11002] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-02T11:01:15.303682"
+    }
+  },
+  {
+    "timestamp": "2026-04-02T11:01:29.690494",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-02T11:01:29.689651"
+    }
+  },
+  {
+    "timestamp": "2026-04-02T11:01:39.594474",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-02T11:01:39.593900"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T09:25:33.439144",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T09:25:33.428756"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T09:25:38.785481",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T09:25:38.784464"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T09:25:41.191545",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T09:25:41.190868"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T09:25:46.783773",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T09:25:46.783171"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:07:54.844258",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:07:54.843678"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:07:56.167242",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:07:56.166389"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:07:59.555813",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:07:59.554789"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:08:05.541900",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:08:05.541043"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:10:16.527392",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:10:16.526492"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:10:17.828948",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:10:17.828208"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:10:20.536219",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:10:20.535142"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:10:26.635362",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:10:26.632287"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:12:31.615303",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:12:31.613722"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:12:33.359008",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:12:33.357930"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:12:36.529042",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:12:36.527865"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:12:42.538728",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:12:42.532875"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:12:51.531013",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:12:51.530091"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:12:53.070689",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:12:53.069275"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:12:56.727271",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:12:56.724419"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:02.551524",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:02.550376"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:11.511378",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:11.509685"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:12.747820",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:12.746857"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:15.617216",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:15.612708"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:21.604172",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:21.602664"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:29.597046",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:29.596278"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:31.001742",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:31.000938"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:33.582687",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:33.581906"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:39.513960",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:39.512820"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:49.515822",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:49.514803"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:50.972919",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:50.971713"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:13:54.810362",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:13:54.809509"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:00.519617",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:00.518587"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:12.601564",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:12.600723"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:13.936618",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:13.935728"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:17.642585",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:17.640979"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:23.507947",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:23.506821"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:29.598044",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:29.597218"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:30.910815",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:30.909738"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:33.626277",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:33.625470"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:39.504460",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:39.503563"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:50.594395",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:50.593012"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:51.899237",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:51.898327"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:14:55.608305",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:14:55.607345"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:01.553803",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:01.552713"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:10.562526",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:10.560899"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:11.967489",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:11.966236"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:15.580151",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:15.578540"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:21.520384",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:21.518532"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:29.709546",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:29.708473"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:31.283041",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:31.282077"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:33.791622",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:33.790604"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:39.495481",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:39.493874"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:49.591045",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:49.590213"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:50.847344",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:50.846404"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:53.621930",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:53.619604"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:15:59.607102",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:15:59.606190"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:10.567645",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:10.566323"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:11.984950",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:11.983676"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:14.711319",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:14.709994"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:19.580890",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:19.579389"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:29.514318",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:29.513276"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:30.792533",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:30.791869"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:33.480478",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:33.479632"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:38.623706",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:38.620988"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:49.494822",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:49.493653"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:50.852693",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:50.851675"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:53.536340",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:53.533606"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:16:58.627102",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:16:58.626244"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:05.565679",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:05.564733"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:06.855067",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:06.854293"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:09.506306",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:09.505473"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:11.025544",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:11.024538"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:13.418656",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:13.417793"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:15.594321",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:15.593061"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:18.416945",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:18.413727"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:33.569840",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:33.566659"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:35.005248",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:35.004174"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:37.688888",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:37.671087"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:42.501023",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:42.500196"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:50.504889",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:50.504125"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:51.930054",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:51.928562"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:17:55.530628",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:17:55.529185"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:18:05.458252",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:18:05.457374"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:18:16.666804",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:18:16.665473"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:18:23.480383",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:18:23.479569"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:18:26.653620",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:18:26.652576"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:18:32.489822",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:18:32.488843"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:18:40.478402",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:18:40.476463"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:18:41.828856",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:18:41.827920"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:18:44.431684",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:18:44.430301"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:18:49.610689",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:18:49.608097"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:01.589336",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:01.588163"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:03.036090",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:03.035103"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:05.755667",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:05.754388"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:11.507552",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:11.506537"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:20.515961",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:20.514241"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:21.900392",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:21.899588"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:24.283465",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:24.280927"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:30.555269",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:30.554341"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:41.521021",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:41.519648"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:42.205573",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:42.204851"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:42.857836",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:42.857186"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:43.819059",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:43.818236"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:45.806908",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:45.805392"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:51.429022",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:51.428278"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:52.470310",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:52.469294"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:19:57.480051",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:19:57.478814"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:00.702889",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:00.701963"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:02.508990",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:02.508077"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:05.349849",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:05.348857"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:11.510369",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:11.509122"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:20.470589",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:20.469757"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:21.714382",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:21.713766"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:24.280830",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:24.279782"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:29.533478",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:29.531663"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:41.468709",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:41.467814"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:42.823595",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:42.822690"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:46.532053",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:46.530974"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:20:52.481129",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:20:52.479312"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:00.559991",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:00.558711"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:02.328464",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:02.327028"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:05.466685",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:05.465549"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:11.516219",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:11.515431"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:20.631306",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:20.630467"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:22.064687",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:22.063809"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:24.679687",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:24.678910"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:30.711679",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:30.710320"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:40.494792",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:40.493959"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:41.778388",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:41.776978"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:44.490957",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:44.489984"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:21:51.666998",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:21:51.666229"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:00.556663",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:00.555806"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:01.824558",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:01.823743"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:04.571198",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:04.570330"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:10.515311",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:10.514299"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:20.940277",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:20.939362"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:22.281395",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:22.280589"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:24.753933",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:24.752962"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:30.464375",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:30.463642"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:40.461600",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:40.460815"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:41.793457",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:41.792503"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:45.520768",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:45.519929"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:22:50.550907",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:22:50.549982"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:00.471462",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:00.470170"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:02.002313",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:02.001539"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:04.800345",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:04.799367"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:11.451946",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:11.451088"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:21.568486",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:21.567546"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:22.896433",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:22.895434"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:26.613598",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:26.612644"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:31.503316",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:31.502457"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:41.457645",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:41.456904"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:42.817088",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:42.815997"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:45.267383",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:45.266246"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:23:50.450818",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:23:50.449952"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:01.452582",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:01.451827"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:02.895903",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:02.895174"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:06.445805",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:06.444912"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:11.448937",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:11.447840"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:27.490813",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:27.489882"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:28.933418",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:28.932383"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:31.554845",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:31.553791"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:36.455020",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:36.454047"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:46.598551",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:46.597584"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:48.671054",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:48.669947"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:51.459460",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:51.458382"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:24:57.521556",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:24:57.520542"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:08.457369",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:08.456364"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:09.937359",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:09.935619"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:13.436661",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:13.435953"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:18.435771",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:18.434651"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:21.107276",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:21.106457"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:22.521769",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:22.519171"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:25.436769",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:25.435808"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:30.443337",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:30.441196"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:41.438743",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:41.437917"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:42.718169",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:42.717208"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:45.155363",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:45.154216"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:25:50.438567",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:25:50.437520"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:01.526253",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:01.525360"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:03.023533",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:03.021545"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:06.433118",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:06.432146"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:11.521771",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:11.516548"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:21.432125",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:21.431370"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:22.698755",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:22.697909"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:25.123416",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:25.122039"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:31.453833",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:31.452402"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:42.456540",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:42.455733"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:43.914598",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:43.912459"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:47.488586",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:47.487634"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:26:52.430344",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:26:52.429324"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:01.518523",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:01.517747"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:02.935965",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:02.935148"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:06.428429",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:06.427586"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:12.426673",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:12.425823"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:21.489972",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:21.489172"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:22.889764",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:22.888830"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:25.555296",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:25.554260"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:30.496811",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:30.495566"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:41.429025",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:41.428095"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:42.709624",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:42.707759"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:45.154008",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:45.153251"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:27:50.473266",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:27:50.472404"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:01.528334",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:01.527130"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:02.798881",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:02.797999"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:05.421468",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:05.420643"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:11.453738",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:11.452916"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:21.592545",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:21.591437"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:22.927881",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:22.926995"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:25.601930",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:25.601133"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:36.380764",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:36.379359"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:47.375400",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:47.373580"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:54.561745",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:54.552769"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:28:59.708963",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:28:59.708006"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:05.428327",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:05.427445"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:13.415965",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:13.414992"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:14.780326",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:14.779347"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:17.209083",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:17.207393"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:17.305497",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:17.304673"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:22.417694",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:22.416338"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:32.457056",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:32.455789"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:33.796497",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:33.795660"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:36.412858",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:36.412020"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:46.370164",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:46.369216"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:52.419035",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:52.418053"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:53.895952",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:53.894815"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:29:56.404071",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:29:56.402698"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:01.412342",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:01.410885"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:13.413017",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:13.411793"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:14.733114",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:14.732227"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:17.405882",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:17.405115"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:23.409370",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:23.407699"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:31.406494",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:31.405688"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:32.858656",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:32.857808"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:35.427841",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:35.427044"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:41.407207",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:41.406276"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:51.403818",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:51.403003"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:52.785292",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:52.784446"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:30:55.566535",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:30:55.565666"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:01.404554",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:01.403819"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:12.399574",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:12.398579"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:13.781798",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:13.779830"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:16.491828",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:16.490776"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:22.402317",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:22.401533"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:32.404820",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:32.403656"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:33.784786",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:33.782915"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:37.882882",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:37.822300"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:43.432094",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:43.431089"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:52.407576",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:52.406699"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:53.687806",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:53.685640"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:31:56.093203",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:31:56.092352"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:01.393511",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:01.392478"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:12.397418",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:12.396165"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:13.912831",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:13.912010"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:16.292869",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:16.291706"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:22.391433",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:22.390636"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:34.397553",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:34.396311"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:36.134262",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:36.132719"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:38.566365",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:38.565468"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:44.419237",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:44.418377"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:53.406442",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:53.404189"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:54.822969",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:54.821684"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:32:59.415134",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:32:59.414180"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:04.439942",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:04.439166"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:13.431491",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:13.430714"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:14.846937",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:14.845942"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:18.388059",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:18.387097"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:23.468115",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:23.467213"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:34.415039",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:34.414012"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:35.887672",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:35.886614"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:39.387093",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:39.386340"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:45.385310",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:45.383802"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:52.390768",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:52.389993"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:53.779670",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:53.778658"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:33:56.439079",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:33:56.438200"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:01.661001",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:01.660210"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:11.494757",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:11.493782"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:12.925716",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:12.924893"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:15.817949",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:15.812161"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:21.381148",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:21.380357"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:32.492228",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:32.491406"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:33.888335",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:33.887436"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:36.368776",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:36.367272"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:42.416349",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:42.415456"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:52.451773",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:52.450991"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:53.747380",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:53.746562"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:34:57.387167",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:34:57.386342"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:03.407896",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:03.406832"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:12.419611",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:12.418838"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:13.788781",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:13.788023"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:16.414150",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:16.413272"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:21.432185",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:21.431495"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:35.384125",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:35.383256"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:36.825979",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:36.824746"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:39.453351",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:39.452437"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:45.373076",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:45.372256"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:52.377180",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:52.376090"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:53.924255",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:53.921791"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:35:57.495080",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:35:57.494305"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:03.370521",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:03.369795"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:12.372836",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:12.372044"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:13.866868",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:13.866033"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:17.368811",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:17.368060"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:22.421927",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:22.421043"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:32.495648",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:32.494892"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:33.941476",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:33.940398"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:37.378195",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:37.376545"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:43.478389",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:43.477290"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:52.609204",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:52.607214"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:54.129852",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:54.128579"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:36:57.381517",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:36:57.380576"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:02.395880",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:02.395236"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:11.364917",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:11.364100"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:12.781117",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:12.780153"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:15.183740",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:15.182797"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:21.451415",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:21.450679"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:32.399245",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:32.398643"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:33.687299",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:33.686629"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:37.416972",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:37.416203"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:42.442338",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:42.441573"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:52.486177",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:52.485323"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:53.841732",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:53.840838"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:37:57.387790",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:37:57.386167"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:02.420478",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:02.418701"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:12.437276",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:12.436421"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:13.842135",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:13.840495"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:17.457414",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:17.456550"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:23.500451",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:23.499513"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:32.412058",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:32.410823"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:33.748785",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:33.748070"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:36.507848",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:36.506831"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:41.417717",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:41.416901"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:52.365207",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:52.363609"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:53.822839",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:53.822092"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:38:57.392534",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:38:57.391755"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:39:08.309724",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:39:08.309008"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:39:11.464594",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:39:11.463735"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:39:12.762773",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:39:12.761952"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:39:20.335533",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:39:20.334686"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:39:30.364651",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:39:30.363716"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:39:47.303888",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:39:47.303105"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:39:48.599880",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:39:48.599053"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:39:51.001469",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:39:51.000775"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:40:01.391970",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:40:01.390488"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:40:17.315236",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:40:17.314506"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:40:24.308157",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:40:24.306756"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:40:32.311749",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:40:32.310380"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:40:43.377037",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:40:43.374883"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:41:01.396759",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:41:01.396097"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:41:08.298735",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:41:08.297904"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:41:16.298435",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:41:16.297686"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:41:27.317310",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:41:27.316632"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:41:37.318800",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:41:37.317916"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:41:38.652458",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:41:38.651605"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:41:41.176976",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:41:41.175232"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:41:51.376786",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:41:51.375573"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:42:07.292675",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:42:07.291912"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:42:14.302218",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:42:14.301240"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:42:22.298622",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:42:22.297723"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:42:33.300589",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:42:33.299857"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:42:47.382570",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:42:47.381839"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:42:48.809148",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:42:48.806523"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:42:51.333266",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:42:51.332558"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:42:58.381979",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:42:58.381338"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:02.441222",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:02.440317"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:03.750166",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:03.749458"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:06.428745",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:06.427916"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:12.330380",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:12.329700"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:22.400584",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:22.399687"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:23.894831",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:23.893983"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:26.270436",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:26.269750"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:32.436569",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:32.435845"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:42.369050",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:42.368302"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:43.633781",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:43.632886"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:46.454286",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:46.453585"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:43:51.326610",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:43:51.325090"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:02.339356",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:02.338521"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:03.761045",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:03.760007"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:07.368545",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:07.367699"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:13.329170",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:13.328358"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:22.353777",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:22.352786"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:23.770859",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:23.770132"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:26.392001",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:26.391253"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:32.329163",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:32.328224"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:43.321261",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:43.320350"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:44.644326",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:44.643300"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:47.496691",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:47.495168"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:44:53.324446",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:44:53.323639"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:02.344783",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:02.343225"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:03.760783",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:03.759930"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:07.360901",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:07.360176"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:12.383520",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:12.382664"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:22.414645",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:22.413785"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:23.723861",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:23.722964"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:26.407859",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:26.407079"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:32.451308",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:32.449875"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:42.312046",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:42.310920"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:43.721866",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:43.721143"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:46.378037",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:46.377340"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:45:52.416499",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:45:52.415803"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:02.310909",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:02.309336"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:03.716557",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:03.715957"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:06.506868",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:06.506223"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:12.385533",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:12.384630"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:22.317246",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:22.316489"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:23.665372",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:23.664507"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:26.417877",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:26.417128"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:32.352733",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:32.352045"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:42.303746",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:42.302729"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:43.636480",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:43.635758"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:46.382222",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:46.381329"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:46:52.306026",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:46:52.305214"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:02.356619",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:02.355782"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:03.675174",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:03.674035"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:07.373082",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:07.372215"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:12.303795",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:12.302824"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:22.424939",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:22.423937"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:23.843237",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:23.841585"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:26.319252",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:26.318582"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:32.358393",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:32.357709"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:42.350327",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:42.349550"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:43.678326",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:43.676917"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:52.327489",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:52.326813"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:47:58.368797",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:47:58.368110"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:48:01.671392",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:48:01.670613"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:48:08.305995",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:48:08.305287"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:48:16.427114",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:48:16.426310"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:48:27.355712",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:48:27.355008"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:48:37.282593",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:48:37.281855"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:48:38.653590",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:48:38.652628"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:48:41.382544",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:48:41.381758"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:48:52.336519",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:48:52.335903"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:07.283880",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:07.283075"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:08.602576",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:08.601728"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:11.209827",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:11.208866"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:21.315012",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:21.314116"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:33.297965",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:33.297199"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:34.665276",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:34.664287"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:38.724865",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:38.724111"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:44.285825",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:44.285088"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:52.442949",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:52.440949"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:53.947721",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:53.946612"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:49:56.374874",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:49:56.373785"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:02.428009",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:02.426962"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:13.350498",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:13.349524"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:14.737943",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:14.737302"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:18.349032",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:18.348162"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:24.281908",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:24.281071"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:33.358330",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:33.357352"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:35.014702",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:35.013809"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:38.305137",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:38.304412"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:44.302793",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:44.301191"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:53.278799",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:53.278048"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:54.724045",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:54.723232"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:50:58.284490",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:50:58.283530"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:04.289530",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:04.288860"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:12.313476",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:12.312520"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:13.787132",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:13.786412"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:17.277094",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:17.276022"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:23.372970",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:23.371798"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:32.386202",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:32.385282"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:33.775473",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:33.774275"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:36.392825",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:36.392204"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:42.414421",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:42.413514"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:52.364157",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:52.363268"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:53.664260",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:53.663566"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:51:56.286017",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:51:56.285262"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:01.416769",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:01.415858"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:14.346195",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:14.345311"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:15.932027",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:15.931130"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:19.280354",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:19.279698"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:24.321368",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:24.320504"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:32.346747",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:32.345855"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:33.679694",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:33.678687"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:37.268316",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:37.267552"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:43.271991",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:43.271128"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:52.357709",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:52.356874"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:53.665765",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:53.665089"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:52:56.267826",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:52:56.267141"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:02.265376",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:02.264696"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:12.327119",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:12.326283"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:13.703626",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:13.702825"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:16.382815",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:16.381833"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:23.816877",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:23.814395"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:32.723299",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:32.722440"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:34.238558",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:34.237665"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:36.892507",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:36.891667"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:42.348201",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:42.347391"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:52.366230",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:52.365532"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:53.726844",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:53.725869"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:53:56.189490",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:53:56.188528"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:01.272169",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:01.271450"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:13.354857",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:13.354007"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:14.679730",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:14.678660"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:18.279984",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:18.279188"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:25.221751",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:25.219867"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:32.266680",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:32.265777"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:33.724614",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:33.723778"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:36.244773",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:36.243039"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:42.305997",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:42.305403"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:54.675882",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:54.674348"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:56.750875",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:56.749428"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:54:59.668588",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:54:59.667482"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:05.397670",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:05.396913"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:13.475259",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:13.474394"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:14.901333",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:14.900209"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:18.922962",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:18.922166"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:24.337145",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:24.336439"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:35.318410",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:35.317110"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:36.729007",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:36.728406"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:40.246653",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:40.245695"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:46.249092",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:46.248122"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:53.301943",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:53.301230"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:54.763873",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:54.760548"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:55:58.318526",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:55:58.317464"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:04.247901",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:04.247254"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:16.287978",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:16.286767"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:17.895312",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:17.893942"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:22.263479",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:22.262508"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:28.324399",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:28.323544"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:33.246824",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:33.246005"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:34.749028",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:34.748219"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:37.422482",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:37.421484"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:43.270490",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:43.269736"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:53.304664",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:53.303852"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:54.687399",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:54.686623"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:56:58.330032",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:56:58.329177"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:03.350334",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:03.349675"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:13.272894",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:13.272049"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:14.591355",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:14.590626"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:18.293172",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:18.292343"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:23.311003",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:23.309780"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:32.351624",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:32.347251"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:33.833937",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:33.833329"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:37.235213",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:37.234435"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:43.349974",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:43.348541"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:52.289440",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:52.288615"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:53.684285",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:53.683297"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:57:56.155172",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:57:56.154283"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:01.302104",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:01.301366"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:13.281369",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:13.280462"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:14.653690",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:14.653010"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:18.406475",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:18.405626"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:24.296431",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:24.295445"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:33.250523",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:33.249754"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:34.662580",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:34.661834"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:37.256410",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:37.255702"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:42.257041",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:42.256222"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:53.318444",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:53.317383"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:54.707029",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:54.706227"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:58:58.338780",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:58:58.336564"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:04.277296",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:04.276368"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:13.242743",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:13.241843"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:14.735522",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:14.734252"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:18.304381",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:18.303816"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:24.248075",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:24.247300"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:32.330658",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:32.329854"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:33.829404",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:33.828505"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:36.536958",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:36.536142"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:42.225446",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:42.224713"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T10:59:58.240166",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T10:59:58.239343"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:00.229984",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:00.229092"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:02.891303",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:02.890398"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:08.278682",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:08.277178"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:13.230517",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:13.229694"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:14.642099",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:14.640655"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:17.223578",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:17.222549"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:23.324322",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:23.323538"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:33.221064",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:33.220294"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:34.595147",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:34.594287"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:38.283556",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:38.282768"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:43.232033",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:43.231034"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:00:59.284248",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:00:59.282093"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:01:01.226317",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:01:01.225369"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:01:05.231787",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:01:05.230690"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:01:11.226431",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:01:11.225588"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:01:27.224011",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:01:27.223064"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:01:28.637585",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:01:28.636840"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:01:32.373316",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:01:32.372474"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:01:38.294307",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:01:38.292753"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:02.181781",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:02.180780"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:04.286260",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:04.281403"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:07.016977",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:07.014874"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:12.291845",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:12.290731"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:27.265474",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:27.264062"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:29.179676",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:29.178048"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:32.252463",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:32.251465"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:37.381200",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:37.379101"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:43.222427",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:43.221712"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:44.539643",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:44.538769"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:47.057176",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:47.056320"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:02:53.247456",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:02:53.245097"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:04.300264",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:04.299373"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:05.787231",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:05.786432"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:09.317791",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:09.316893"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:15.270079",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:15.268677"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:24.451545",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:24.438432"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:26.125931",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:26.124922"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:29.257863",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:29.256857"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:34.303126",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:34.302455"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:45.383412",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:45.382579"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:46.737199",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:46.736341"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:50.207630",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:50.206823"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:03:56.216810",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:03:56.216182"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:04:03.233410",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:04:03.232536"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:04:04.859169",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:04:04.858116"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:04:08.303021",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:04:08.302063"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:04:14.207336",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:04:14.206383"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:04:23.213064",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:04:23.212401"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:04:24.873156",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:04:24.872365"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:04:27.721837",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:04:27.720984"
+    }
+  },
+  {
+    "timestamp": "2026-04-04T11:04:33.368878",
+    "error_details": {
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "operation": "connect",
+      "timestamp": "2026-04-04T11:04:33.367980"
+    }
   }
 ]

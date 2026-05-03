@@ -57,14 +57,14 @@ class ProcessEventHandler(FileSystemEventHandler):
         # Check if the file is in a directory that should trigger processing
         parent_dir = file_path.parent
 
-        # Trigger if file is added to Needs_Action, Inbox, or Approved folders
+        # Trigger ONLY for Needs_Action and Inbox folders
+        # DO NOT trigger for Approved folder - it's handled by MCP servers
         if parent_dir == self.needs_action_path or \
-           parent_dir == self.inbox_path or \
-           parent_dir == self.approved_path:
+           parent_dir == self.inbox_path:
             return True
 
-        # Also trigger if it's a file being added to any of these directories
-        if parent_dir.name in ['Needs_Action', 'Inbox', 'Approved']:
+        # Also trigger if it's a file being added to these directories
+        if parent_dir.name in ['Needs_Action', 'Inbox']:
             return True
 
         return False
@@ -175,7 +175,8 @@ def main():
     # Start the observer
     observer.start()
     logging.info(f"Process Watcher started - monitoring {vault_path} for changes...")
-    logging.info("Process will trigger when files are added to Needs_Action, Inbox, or Approved folders")
+    logging.info("Process will trigger when files are added to Needs_Action or Inbox folders")
+    logging.info("(Approved folder is handled by MCP servers)")
     logging.info("Press Ctrl+C to stop.")
 
     try:

@@ -79,7 +79,7 @@ def start_odoo_mcp():
     """Start the odoo MCP server"""
     try:
         process = subprocess.Popen([
-            sys.executable, 'odoo_mcp.py', '--vault-path', 'odoo_vault.json'
+            sys.executable, 'odoo_mcp.py'
         ], cwd='.')
         logging.info("Odoo MCP Server started with PID: {}".format(process.pid))
         return process

@@ -49,7 +49,7 @@ class ApprovalHandler(FileSystemEventHandler):
 
 
 class EmailMCPServer:
-    def __init__(self, host='localhost', port=8080):
+    def __init__(self, host='localhost', port=8081):
         self.host = host
         self.port = port
         self.socket = None
@@ -57,10 +57,10 @@ class EmailMCPServer:
         self.clients = set()
 
         # Setup directories
-        self.archived_dir = Path(__file__).parent / 'vault' / 'Archived'
-        self.approval_dir = Path(__file__).parent / 'vault' / 'Approved'
-        self.rejected_dir = Path(__file__).parent / 'vault' / 'Rejected'
-        self.pending_dir = Path(__file__).parent / 'vault' / 'Pending_Approval'
+        self.archived_dir = Path('vault') / 'Archived'
+        self.approval_dir = Path('vault') / 'Approved'
+        self.rejected_dir = Path('vault') / 'Rejected'
+        self.pending_dir = Path('vault') / 'Pending_Approval'
 
         # Create directories if they don't exist
         self.ensure_directories()
@@ -225,30 +225,102 @@ class EmailMCPServer:
     def handle_approval(self, filename):
         """Handle when a file is moved to the Approved directory"""
         print(f"Approval detected: {filename}")
+
+        # Skip social media approval files - let social_mcp.py handle them
+        if 'SOCIAL' in filename.upper() or 'LINKEDIN' in filename.upper() or 'TWITTER' in filename.upper() or 'FACEBOOK' in filename.upper() or 'INSTAGRAM' in filename.upper():
+            print(f"Skipping social media approval file: {filename} (will be handled by social_mcp.py)")
+            return
+
+        # Only handle EMAIL files
+        if 'EMAIL' not in filename.upper():
+            print(f"Skipping non-email file: {filename}")
+            return
+
         file_path = self.approval_dir / filename
 
-        if file_path.exists():
+        # Add small delay to ensure file is fully written
+        time.sleep(0.5)
+
+        if not file_path.exists():
+            print(f"File {filename} no longer exists, may have been processed by another handler")
+            return
+
+        # Create a lock file to prevent race conditions
+        lock_file = file_path.with_suffix('.lock')
+        try:
+            # Try to create lock file (atomic operation)
+            if lock_file.exists():
+                print(f"File {filename} is locked by another process")
+                return
+
+            lock_file.touch()
+
+            # Double-check file still exists after acquiring lock
+            if not file_path.exists():
+                print(f"File {filename} was removed before processing")
+                if lock_file.exists():
+                    lock_file.unlink()
+                return
+
             try:
                 content = file_path.read_text()
                 parsed = self.parse_approval_file(content)
 
-                if parsed.get('action') == 'send_email':
-                    self.send_email(parsed)
-                elif parsed.get('action') == 'draft_email':
-                    self.draft_email(parsed)
+                # Process the email based on action type
+                action = parsed.get('action', '')
 
-                # Move file to archive after processing
-                archive_dir = Path(__file__).parent / 'vault' / 'Archive'
-                archive_dir.mkdir(exist_ok=True)
-                archive_path = archive_dir / filename
-                file_path.rename(archive_path)
+                # If no action specified but it's an email file, default to send_email
+                if not action and parsed.get('type') == 'email':
+                    action = 'send_email'
+                    print(f"No action specified, defaulting to send_email for {filename}")
+
+                if action == 'send_email':
+                    self.send_email(parsed)
+                elif action == 'draft_email':
+                    self.draft_email(parsed)
+                else:
+                    print(f"Unknown or missing action: {action} for {filename}")
+                    raise Exception(f"Unknown action: {action}")
+
+                # Update the status in the file to "completed"
+                content = file_path.read_text()
+                updated_content = content.replace('status: pending', 'status: completed')
+                updated_content = updated_content.replace('status: draft', 'status: completed')
+                file_path.write_text(updated_content)
+
+                # Only move to Done if processing was successful (no exception raised)
+                done_dir = Path('vault') / 'Done'
+                done_dir.mkdir(exist_ok=True)
+                done_path = done_dir / filename
+
+                # Use shutil.move for safer file moving
+                import shutil
+                if file_path.exists():
+                    shutil.move(str(file_path), str(done_path))
+                    print(f"Successfully processed and moved {filename} to Done folder")
 
             except Exception as e:
                 print(f"Error processing approved file {filename}: {e}")
-                if "cannot find the file specified" in str(e) or "No such file or directory" in str(e):
-                    print(f"File {filename} may have already been processed or moved by another event.")
-                else:
-                    traceback.print_exc()
+                traceback.print_exc()
+
+                # Move to error folder for manual review
+                error_dir = Path('vault') / 'Errors'
+                error_dir.mkdir(exist_ok=True)
+                error_path = error_dir / f"ERROR_{filename}"
+                if file_path.exists():
+                    import shutil
+                    shutil.move(str(file_path), str(error_path))
+                    print(f"Moved failed file to {error_path}")
+
+            finally:
+                # Always remove lock file
+                if lock_file.exists():
+                    lock_file.unlink()
+
+        except Exception as e:
+            print(f"Error acquiring lock for {filename}: {e}")
+            if lock_file.exists():
+                lock_file.unlink()
 
     def handle_archived_email(self, filename):
         """Handle when a file is placed in the Archived directory - these are emails to send directly"""
@@ -273,7 +345,7 @@ class EmailMCPServer:
                     print(f"Unknown action '{action}' for file: {filename}")
 
                 # Move file to internal archive after processing
-                archive_dir = Path(__file__).parent / 'vault' / 'Archive'
+                archive_dir = Path('vault') / 'Archive'
                 archive_dir.mkdir(exist_ok=True)
                 archive_path = archive_dir / filename
                 file_path.rename(archive_path)
@@ -294,7 +366,7 @@ class EmailMCPServer:
         if file_path.exists():
             try:
                 # Move rejected file to archive
-                archive_dir = Path(__file__).parent / 'vault' / 'Archive'
+                archive_dir = Path('vault') / 'Archive'
                 archive_dir.mkdir(exist_ok=True)
                 archive_path = archive_dir / f"REJECTED_{filename}"
                 file_path.rename(archive_path)
@@ -412,7 +484,7 @@ class EmailMCPServer:
             }
 
             # Store log in vault/Logs directory for clean structure
-            vault_logs_path = Path(__file__).parent / 'vault' / 'Logs'
+            vault_logs_path = Path('vault') / 'Logs'
             vault_logs_path.mkdir(parents=True, exist_ok=True)
             log_path = vault_logs_path / 'email_operations.json'
             logs = []
@@ -451,7 +523,7 @@ class EmailMCPServer:
             }
 
             # Store log in vault/Logs directory for clean structure
-            vault_logs_path = Path(__file__).parent / 'vault' / 'Logs'
+            vault_logs_path = Path('vault') / 'Logs'
             vault_logs_path.mkdir(parents=True, exist_ok=True)
             log_path = vault_logs_path / 'email_operations.json'
             logs = []
@@ -545,7 +617,7 @@ class EmailMCPServer:
             }
 
             # Store log in vault/Logs directory for clean structure
-            vault_logs_path = Path(__file__).parent / 'vault' / 'Logs'
+            vault_logs_path = Path('vault') / 'Logs'
             vault_logs_path.mkdir(parents=True, exist_ok=True)
             log_path = vault_logs_path / 'email_operations.json'
             logs = []
@@ -584,7 +656,7 @@ class EmailMCPServer:
             }
 
             # Store log in vault/Logs directory for clean structure
-            vault_logs_path = Path(__file__).parent / 'vault' / 'Logs'
+            vault_logs_path = Path('vault') / 'Logs'
             vault_logs_path.mkdir(parents=True, exist_ok=True)
             log_path = vault_logs_path / 'email_operations.json'
             logs = []
