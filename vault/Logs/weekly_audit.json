@@ -96,5 +96,187 @@
     "suggestions_count": 3,
     "action": "weekly_audit",
     "status": "completed"
+  },
+  {
+    "timestamp": "2026-05-10T10:09:56.452442",
+    "briefing_path": "vault/Briefings/2026-05-10_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-05-17T18:54:30.150176",
+    "briefing_path": "vault/Briefings/2026-05-17_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-05-24T17:43:12.551751",
+    "briefing_path": "vault/Briefings/2026-05-24_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-05-31T22:43:41.601081",
+    "briefing_path": "vault/Briefings/2026-05-31_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-06-07T10:40:56.953482",
+    "briefing_path": "vault/Briefings/2026-06-07_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-06-21T10:09:52.332905",
+    "briefing_path": "vault/Briefings/2026-06-21_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-06-28T23:11:01.654820",
+    "briefing_path": "vault/Briefings/2026-06-28_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-07-05T08:15:00.541632",
+    "briefing_path": "vault/Briefings/2026-07-05_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-07-12T19:22:39.535969",
+    "briefing_path": "vault/Briefings/2026-07-12_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-07-19T10:09:53.697149",
+    "briefing_path": "vault/Briefings/2026-07-19_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-07-26T10:10:00.380447",
+    "briefing_path": "vault/Briefings/2026-07-26_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-08-02T09:03:59.075621",
+    "briefing_path": "vault/Briefings/2026-08-02_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2026-08-09T22:50:40.932964",
+    "briefing_path": "vault/Briefings/2026-08-09_CEO_Briefing.md",
+    "revenue_data": {
+      "total_revenue": 12500,
+      "invoice_count": 8,
+      "avg_invoice_value": 1562.5
+    },
+    "completed_tasks_count": 0,
+    "bottlenecks_count": 22,
+    "suggestions_count": 3,
+    "action": "weekly_audit",
+    "status": "completed"
   }
 ]

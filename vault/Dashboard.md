@@ -8,6 +8,84 @@ last_updated: 2026-04-09
 
 
 ## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-08-09_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-08-02_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-07-26_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-07-19_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-07-12_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-07-05_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-06-28_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-06-21_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-06-07_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-05-31_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-05-24_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-05-17_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
+- Latest Briefing: vault/Briefings/2026-05-10_CEO_Briefing.md
+- Revenue: $12,500
+- Tasks Completed: 0
+
+
+## Weekly Audit
 - Latest Briefing: vault/Briefings/2026-05-03_CEO_Briefing.md
 - Revenue: $12,500
 - Tasks Completed: 0
